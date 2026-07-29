@@ -49,6 +49,15 @@ CGPA: **3.99/4.3** (top 2% in HKUST)
 
 A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.
 
+## WIP / Ideas
+
+These are projects I plan to work on (some may be perpetually under construction):
+
+- **QuLeda 错题自动批改系统** — Automated error grading system for QuLeda (currently on hold / abandoned)
+- **满满情绪价值系统** — A system that provides abundant emotional value
+- **提供情绪价值的 Skill** — A Claude Code skill for delivering emotional value
+- **预测前途一片光明/一片黯淡系统** — A fortune-telling system that predicts whether your future is bright or bleak
+
 ## Honors & Awards
 
 - **SENG Dean's List**, HKUST — 2025-26 Fall, 2025-26 Spring
