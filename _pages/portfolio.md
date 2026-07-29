@@ -8,10 +8,9 @@ Selected projects from my [GitHub](https://github.com/WuJinjun-cmd).
 
 ---
 
-## 🔬 EdgeHealth-ML
+## 🔬 [EdgeHealth-ML](https://github.com/WuJinjun-cmd/EdgeHealth-ML)
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://github.com/WuJinjun-cmd/EdgeHealth-ML)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://github.com/WuJinjun-cmd/EdgeHealth-ML)
+**Tools:** Python, PyTorch, torchvision, Claude Code
 
 **On-device multimodal human activity recognition** — Vision+IMU fusion with MobileNetV3-Small + 1D-CNN, INT8 quantization, ONNX deployment. Built for HKUST MINSys Lab alignment.
 
@@ -20,27 +19,23 @@ Selected projects from my [GitHub](https://github.com/WuJinjun-cmd).
 - INT8 quantization & ONNX export for edge deployment
 - **87.6% test accuracy** on UCI HAR Dataset
 
-[[View on GitHub]](https://github.com/WuJinjun-cmd/EdgeHealth-ML)
-
 ---
 
-## 📅 Schedule Skill
-
-[![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)](https://github.com/WuJinjun-cmd/schedule-skill)
-
-A Claude Code skill to generate course schedules. Automates timetable creation from course data.
-
-[[View on GitHub]](https://github.com/WuJinjun-cmd/schedule-skill)
-
----
-
-## ✍️ Skill Writer Skill
-
-[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)](https://github.com/WuJinjun-cmd/skill-writer-skill)
-
-A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.
-
-[[View on GitHub]](https://github.com/WuJinjun-cmd/skill-writer-skill)
+<details>
+  <summary><strong style="font-size:1.2em;">🛠️ Skills</strong></summary>
+  <br/>
+  <details style="margin-left:1em;">
+    <summary><strong>📅 <a href="https://github.com/WuJinjun-cmd/schedule-skill">Schedule Skill</a></strong></summary>
+    <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+    <p>A Claude Code skill to generate course schedules. Automates timetable creation from course data.</p>
+  </details>
+  <br/>
+  <details style="margin-left:1em;">
+    <summary><strong>✍️ <a href="https://github.com/WuJinjun-cmd/skill-writer-skill">Skill Writer Skill</a></strong></summary>
+    <p><strong>Tools:</strong> PowerShell</p>
+    <p>A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.</p>
+  </details>
+</details>
 
 ---
 

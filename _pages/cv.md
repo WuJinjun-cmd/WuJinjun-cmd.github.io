@@ -7,58 +7,88 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**B.Eng in Computer Science** (transferred from B.Eng in Microelectronics and Integrated Circuits in June 2026)  
+*The Hong Kong University of Science and Technology (HKUST)* — September 2025 – Present  
+CGPA: **3.99/4.3** (top 2% in HKUST)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Experience
+
+### IELTS Teaching Assistant — QuLeda
+*July 2026 – August 2026*
+
+- Responsible for grading student assignments and providing detailed feedback
+- Conducted one-on-one oral English tutoring sessions
+- Produced listening comprehension audio materials
+
+## Projects
+
+### EdgeHealth-ML: On-Device Multimodal Activity Recognition
+*June 2026*  
+**Tools:** Python, PyTorch, torchvision, Claude Code
+
+- Designed a dual-branch multimodal fusion architecture: Vision branch uses MobileNetV3-Small for STFT spectrogram features; IMU branch uses a 3-layer 1D-CNN to process raw 6-channel accelerometer + gyroscope signals. Features are fused via concatenation + 2-layer MLP with dropout.
+- Evaluated on the UCI HAR Dataset (30 subjects, 6 activities: walking, walking upstairs/downstairs, sitting, standing, laying), achieving 87.6% test accuracy of dynamic activities (walking 100%, stair-climbing 96%).
+
+### Kaggle Competition: Stellar Class Classification
+*May 2026*  
+**Tools:** Python, NumPy, Pandas, Scikit-Learn, Matplotlib
+
+- Participated in a classification competition to predict galaxy and star types from 12-dimensional photometric data (redshift, spectral features, galaxy population, etc.). Performed data preprocessing including categorical variable encoding and min-max normalization to [0, 1].
+- Implemented multiple models: Decision Stump (from scratch), KNN and K-means (via Scikit-Learn). Evaluated model performance through confusion matrix, Precision, Recall, and F1 scores; identified limitations in separating overlapping galaxy and star clusters. Achieved 94% classification accuracy on the test set using KNN.
+
+### Skill Writer Skill
+**Tools:** PowerShell
+
+A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.
+
+---
+
+## Relevant Coursework
+
+<table style="font-size:1.05em;">
+  <thead>
+    <tr>
+      <th style="font-size:1.1em;">Course</th>
+      <th style="font-size:1.1em;">Title</th>
+      <th style="font-size:1.1em;">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>COMP1023</strong></td><td><strong>Introduction to Python Programming</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2011</strong></td><td><strong>Programming with C++</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2012</strong></td><td><strong>Object-Oriented Programming and Data Structures</strong></td><td>NaN</td></tr>
+    <tr><td><strong>COMP2211</strong></td><td><strong>Introduction to Artificial Intelligence</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2611</strong></td><td><strong>Computer Organization</strong></td><td>NaN</td></tr>
+    <tr><td><strong>COMP2711</strong></td><td><strong>Discrete Mathematical Tools for Computer Science</strong></td><td><strong>A</strong></td></tr>
+    <tr><td><strong>COMP3711</strong></td><td><strong>Design and Analysis of Algorithms</strong></td><td>NaN</td></tr>
+  </tbody>
+</table>
+
+*For details, see the [Courses](/courses/) page.*
+
+---
+
+## Skills
+
+**Programming:** Python, C++  
+**Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
+**Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
+**Vibe Coding (with API):** Claude Code, Trae  
+**Languages:** Mandarin (native), English (IELTS 7.0)
+
+---
+
+## Honors & Awards
+
+- **SENG Dean's List**, HKUST — 2025-26 Fall, 2025-26 Spring
+- **University's Scholarship Scheme** for Continuing Undergraduate Students (HKD 40,000, Pending)

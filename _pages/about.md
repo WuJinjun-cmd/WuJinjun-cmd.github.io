@@ -7,19 +7,26 @@ redirect_from:
   - /about.html
 ---
 
+Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
+
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Cybersecurity</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Architecture / Network</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Artificial Intelligence</span>
+
 ## Education
 
 **B.Eng in Computer Science** (transferred from B.Eng in Microelectronics and Integrated Circuits in June 2026)  
-*The Hong Kong University of Science and Technology (HKUST)* — September 2025 – Present  
+<span style="display:flex; justify-content:space-between;"><span>*The Hong Kong University of Science and Technology (HKUST)*</span><span>September 2025 – Present</span></span>
 CGPA: **3.99/4.3** (top 2% in HKUST)
 
----
+## Experience
 
-## Research Interests
+### IELTS Teaching Assistant — QuLeda
+*July 2026 – August 2026*
 
-Cybersecurity, Computer Architecture / Network, Artificial Intelligence
-
----
+- Responsible for grading student assignments and providing detailed feedback
+- Conducted one-on-one oral English tutoring sessions
+- Produced listening comprehension audio materials
 
 ## Projects
 
@@ -37,40 +44,10 @@ Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 - Participated in a classification competition to predict galaxy and star types from 12-dimensional photometric data (redshift, spectral features, galaxy population, etc.). Performed data preprocessing including categorical variable encoding and min-max normalization to [0, 1].
 - Implemented multiple models: Decision Stump (from scratch), KNN and K-means (via Scikit-Learn). Evaluated model performance through confusion matrix, Precision, Recall, and F1 scores; identified limitations in separating overlapping galaxy and star clusters. Achieved 94% classification accuracy on the test set using KNN.
 
----
+### Skill Writer Skill
+**Tools:** PowerShell
 
-## Relevant Coursework
-
-<table style="font-size:1.05em;">
-  <thead>
-    <tr>
-      <th style="font-size:1.1em;">Course</th>
-      <th style="font-size:1.1em;">Title</th>
-      <th style="font-size:1.1em;">Grade</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><strong>COMP1023</strong></td><td><strong>Introduction to Python Programming</strong></td><td><strong>A+</strong></td></tr>
-    <tr><td><strong>COMP2011</strong></td><td><strong>Programming with C++</strong></td><td><strong>A+</strong></td></tr>
-    <tr><td><strong>COMP2012</strong></td><td><strong>Object-Oriented Programming and Data Structures</strong></td><td>NaN</td></tr>
-    <tr><td><strong>COMP2211</strong></td><td><strong>Introduction to Artificial Intelligence</strong></td><td><strong>A+</strong></td></tr>
-    <tr><td><strong>COMP2611</strong></td><td><strong>Computer Organization</strong></td><td>NaN</td></tr>
-    <tr><td><strong>COMP2711</strong></td><td><strong>Discrete Mathematical Tools for Computer Science</strong></td><td><strong>A</strong></td></tr>
-    <tr><td><strong>COMP3711</strong></td><td><strong>Design and Analysis of Algorithms</strong></td><td>NaN</td></tr>
-  </tbody>
-</table>
-
----
-
-## Skills
-
-**Programming:** Python, C++  
-**Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
-**Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
-**Vibe Coding (with API):** Claude Code, Trae  
-**Languages:** Mandarin (native), English (IELTS 7.0)
-
----
+A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.
 
 ## Honors & Awards
 
