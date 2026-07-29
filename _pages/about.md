@@ -41,12 +41,24 @@ Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 
 ## Relevant Coursework
 
-| Course | Title | Grade |
-|--------|-------|-------|
-| COMP1023 | Introduction to Python Programming | **A+** |
-| COMP2011 | Programming with C++ | **A+** |
-| COMP2211 | Introduction to Artificial Intelligence | **A+** |
-| COMP2711 | Discrete Mathematical Tools for Computer Science | **A** |
+<table style="font-size:1.05em;">
+  <thead>
+    <tr>
+      <th style="font-size:1.1em;">Course</th>
+      <th style="font-size:1.1em;">Title</th>
+      <th style="font-size:1.1em;">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>COMP1023</strong></td><td><strong>Introduction to Python Programming</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2011</strong></td><td><strong>Programming with C++</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2012</strong></td><td><strong>Object-Oriented Programming and Data Structures</strong></td><td>NaN</td></tr>
+    <tr><td><strong>COMP2211</strong></td><td><strong>Introduction to Artificial Intelligence</strong></td><td><strong>A+</strong></td></tr>
+    <tr><td><strong>COMP2611</strong></td><td><strong>Computer Organization</strong></td><td>NaN</td></tr>
+    <tr><td><strong>COMP2711</strong></td><td><strong>Discrete Mathematical Tools for Computer Science</strong></td><td><strong>A</strong></td></tr>
+    <tr><td><strong>COMP3711</strong></td><td><strong>Design and Analysis of Algorithms</strong></td><td>NaN</td></tr>
+  </tbody>
+</table>
 
 ---
 
