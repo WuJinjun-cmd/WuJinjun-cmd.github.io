@@ -35,6 +35,12 @@ Selected projects from my [GitHub](https://github.com/WuJinjun-cmd).
     <p><strong>Tools:</strong> PowerShell</p>
     <p>A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.</p>
   </details>
+  <br/>
+  <details style="margin-left:1em;">
+    <summary><strong>💝 <a href="https://github.com/WuJinjun-cmd/emotion-value-skill">Emotion Value Skill</a></strong></summary>
+    <p><strong>Tools:</strong> Claude Code</p>
+    <p>A Claude Code skill for emotional companionship — celebration, comfort, pep talks, and a friendly presence.</p>
+  </details>
 </details>
 
 ---
