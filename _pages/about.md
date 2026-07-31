@@ -1,11 +1,12 @@
 ---
 permalink: /
-title: "About Me"
+title: 'Homepage <a href="/zh/" style="float:right; font-size:0.55em; font-weight:bold; border:1.5px solid var(--global-border-color,#ccc); border-radius:4px; padding:4px 12px; color:var(--global-text-color,#333); text-decoration:none;">中</a>'
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 
 Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
 
@@ -55,7 +56,6 @@ These are projects I plan to work on (some may be perpetually under construction
 
 - **QuLeda 错题自动批改系统** — Automated error grading system for QuLeda (currently on hold / abandoned)
 - **满满情绪价值系统** — A system that provides abundant emotional value
-- **提供情绪价值的 Skill** — A Claude Code skill for delivering emotional value
 - **预测前途一片光明/一片黯淡系统** — A fortune-telling system that predicts whether your future is bright or bleak
 
 ## Honors & Awards
