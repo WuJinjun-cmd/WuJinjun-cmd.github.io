@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+📄 **[Download Resume (PDF)](/files/resume.pdf)**
+
 ## Education
 
 **B.Eng in Computer Science** (transferred from B.Eng in Microelectronics and Integrated Circuits in June 2026)  
