@@ -1,9 +1,10 @@
 ---
 permalink: /zh/
-title: '主页 <a href="/" style="float:right; font-size:0.55em; font-weight:bold; border:1.5px solid var(--global-border-color,#ccc); border-radius:4px; padding:4px 12px; color:var(--global-text-color,#333); text-decoration:none;">EN</a>'
+title: "主页"
 author_profile: true
 ---
 
+<div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:var(--global-text-color,#333); text-decoration:none;">EN</a></div>
 
 你好，我是 **WU, Jinjun (吴金骏)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学及工程学系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
 

@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: 'Homepage <a href="/zh/" style="float:right; font-size:0.55em; font-weight:bold; border:1.5px solid var(--global-border-color,#ccc); border-radius:4px; padding:4px 12px; color:var(--global-text-color,#333); text-decoration:none;">中</a>'
+title: "Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/zh/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:var(--global-text-color,#333); text-decoration:none;">中</a></div>
 
 Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
 
