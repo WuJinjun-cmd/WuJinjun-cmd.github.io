@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-📄 **[Download Resume (PDF)](/files/resume.pdf)**
+<span style="font-weight:bold; margin-right:10px;">Download PDF</span> <a href="/files/resume.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/resume-zh.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
 ## Education
 
