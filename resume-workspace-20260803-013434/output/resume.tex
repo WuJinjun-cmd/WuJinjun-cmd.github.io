@@ -1,0 +1,102 @@
+\documentclass{common/resume}
+
+\begin{document}
+
+%---------- HEADER ----------
+\resumeheader{WU, Jinjun}
+  {jwufa@connect.ust.hk}
+  {WuJinjun-cmd}
+  {https://github.com/WuJinjun-cmd}
+
+%---------- EDUCATION ----------
+\section{Education}
+
+\entry{B.Eng in Computer Science}{The Hong Kong University of Science and Technology (HKUST)}
+  {Sep 2025 -- Present}{Hong Kong}
+
+\begin{itemize}
+  \item CGPA: 3.99/4.3 (top 2\%)
+  \item Transferred from B.Eng in Microelectronics and Integrated Circuits (Jun 2026)
+  \item SENG Dean's List: 2025--26 Fall, 2025--26 Spring
+\end{itemize}
+
+%---------- RESEARCH INTERESTS ----------
+\section{Research Interests}
+
+Cybersecurity \textbullet{} Computer Architecture / Network \textbullet{} Artificial Intelligence
+
+%---------- EXPERIENCE ----------
+\section{Experience}
+
+\entry{IELTS Teaching Assistant}{QULEDA}
+  {Jul 2026 -- Aug 2026}{}
+
+\begin{itemize}
+  \item Graded student assignments and provided detailed feedback
+  \item Conducted one-on-one oral English tutoring sessions
+  \item Produced listening comprehension audio materials for course use
+\end{itemize}
+
+%---------- PROJECTS ----------
+\section{Projects \& Competitions}
+
+\projectentry{EdgeHealth-ML: On-Device Multimodal Activity Recognition}{Jun 2026}
+  {Python, PyTorch, torchvision, Claude Code}
+
+\begin{itemize}
+  \item Designed a dual-branch multimodal fusion architecture: MobileNetV3-Small for STFT spectrogram features and a 3-layer 1D-CNN for raw 6-channel accelerometer + gyroscope signals; fused via concatenation + 2-layer MLP with dropout
+  \item Evaluated on UCI HAR Dataset (30 subjects, 6 activities), achieving 87.6\% test accuracy (walking 100\%, stair-climbing 96\%)
+\end{itemize}
+
+\projectentry{Agent Breaker -- Lakera}{Jul 2026}
+  {Prompt Injection, AI Security}
+
+\begin{itemize}
+  \item Participated in a GenAI security competition, hacking real-world AI agents using prompt injection attacks that bypass defenses and manipulate underlying LLMs
+  \item Scored 1782 points, ranking \#170 globally (top 2\% of all participants)
+\end{itemize}
+
+\projectentry{Kaggle Competition: Stellar Class Classification}{May 2026}
+  {Python, NumPy, Pandas, Scikit-Learn, Matplotlib}
+
+\begin{itemize}
+  \item Classified galaxy and star types from 12-dimensional photometric data $\mathbf{x} = \langle x_1, x_2, \ldots, x_{12} \rangle$ with preprocessing including categorical encoding and min-max normalization
+  \item Implemented Decision Stump (from scratch), KNN, and K-means; achieved 94\% classification accuracy using KNN
+\end{itemize}
+
+\projectentry{Skill Writer Skill}{}
+  {PowerShell, Claude Code}
+
+\begin{itemize}
+  \item Built a Claude Code skill for meta-tooling skill authoring workflows
+\end{itemize}
+
+%---------- RELEVANT COURSEWORK ----------
+\section{Relevant Coursework}
+
+\begin{itemize}
+  \item \textbf{COMP1023} Introduction to Python Programming (A+) \hfill \textbf{COMP2011} Programming with C++ (A+)
+  \item \textbf{COMP2012} Object-Oriented Programming and Data Structures \hfill \textbf{COMP2211} Introduction to AI (A+)
+  \item \textbf{COMP2611} Computer Organization \hfill \textbf{COMP2711} Discrete Math for CS (A)
+  \item \textbf{COMP3711} Design and Analysis of Algorithms
+\end{itemize}
+
+%---------- SKILLS ----------
+\section{Skills}
+
+\textbf{Programming:} Python, C++ \\
+\textbf{ML/DL Frameworks:} Scikit-Learn, Keras, PyTorch \\
+\textbf{Data \& Visualization:} NumPy, Pandas, Matplotlib \\
+\textbf{System:} Linux \\
+\textbf{Productivity:} Claude Code, Trae \\
+\textbf{Languages:} Mandarin (native), English (IELTS 7.0)
+
+%---------- HONORS ----------
+\section{Honors \& Awards}
+
+\begin{itemize}
+  \item \textbf{University Scholarship Scheme} for Continuing Undergraduate Students -- HKD 40,000
+  \item \textbf{SENG Dean's List}, HKUST -- 2025--26 Fall, 2025--26 Spring
+\end{itemize}
+
+\end{document}

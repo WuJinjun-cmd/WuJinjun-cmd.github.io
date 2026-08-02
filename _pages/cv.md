@@ -25,14 +25,14 @@ Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 
 ## Experience
 
-### IELTS Teaching Assistant — QuLeda
+### IELTS Teaching Assistant — QULEDA
 *July 2026 – August 2026*
 
 - Responsible for grading student assignments and providing detailed feedback
 - Conducted one-on-one oral English tutoring sessions
 - Produced listening comprehension audio materials
 
-## Projects
+## Projects & Competitions
 
 ### EdgeHealth-ML: On-Device Multimodal Activity Recognition
 *June 2026*  
@@ -47,6 +47,13 @@ Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 
 - Participated in a classification competition to predict galaxy and star types from 12-dimensional photometric data $$\mathbf{x} = \langle x_1, x_2, \ldots, x_{12} \rangle$$ (redshift, spectral features, galaxy population, etc.). Performed data preprocessing including categorical variable encoding and min-max normalization to [0, 1].
 - Implemented multiple models: Decision Stump (from scratch), KNN and K-means (via Scikit-Learn). Evaluated model performance through confusion matrix, Precision, Recall, and F1 scores; identified limitations in separating overlapping galaxy and star clusters. Achieved 94% classification accuracy on the test set using KNN.
+
+### [Agent Breaker](https://play.lakera.ai/) — Lakera
+*July 2026*  
+**Score: 1782 · Leaderboard: #170 (top 2%)**
+
+- Participated in the Agent Breaker challenge — a GenAI security competition where the goal is to hack real-world AI agents across multiple levels using prompt injection attacks that bypass defenses and manipulate underlying LLMs
+- Attacked diverse GenAI applications to steal sensitive data, extract system instructions, and manipulate LLM behavior; scored 1782 points, ranking #170 globally among all participants (top 2%)
 
 ### Skill Writer Skill
 **Tools:** PowerShell
@@ -85,6 +92,7 @@ A Claude Code skill to help write other skills — meta-tooling for skill author
 **Programming:** Python, C++  
 **Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
 **Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
+**System:** Linux  
 **Vibe Coding (with API):** Claude Code, Trae  
 **Languages:** Mandarin (native), English (IELTS 7.0)
 
