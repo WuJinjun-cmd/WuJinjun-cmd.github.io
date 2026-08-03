@@ -8,7 +8,12 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
 
 ## 2026-27 Fall <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">Upcoming</span>
 
-<table style="font-size:1.05em;">
+<table style="font-size:1.05em; width:100%; table-layout:fixed;">
+  <colgroup>
+    <col style="width:130px;">
+    <col>
+    <col style="width:65px;">
+  </colgroup>
   <thead>
     <tr>
       <th style="font-size:1.1em;">Course Code</th>
@@ -28,7 +33,12 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
 
 ## 2025-26 Spring <span style="background:#f0ad4e; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">Dean's List</span>
 
-<table style="font-size:1.05em;">
+<table style="font-size:1.05em; width:100%; table-layout:fixed;">
+  <colgroup>
+    <col style="width:130px;">
+    <col>
+    <col style="width:65px;">
+  </colgroup>
   <thead>
     <tr>
       <th style="font-size:1.1em;">Course Code</th>
@@ -49,7 +59,12 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
 
 ## 2025-26 Fall <span style="background:#f0ad4e; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">Dean's List</span>
 
-<table style="font-size:1.05em;">
+<table style="font-size:1.05em; width:100%; table-layout:fixed;">
+  <colgroup>
+    <col style="width:130px;">
+    <col>
+    <col style="width:65px;">
+  </colgroup>
   <thead>
     <tr>
       <th style="font-size:1.1em;">Course Code</th>
