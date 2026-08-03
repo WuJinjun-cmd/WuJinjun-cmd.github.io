@@ -12,7 +12,7 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
   <colgroup>
     <col style="width:130px;">
     <col>
-    <col style="width:65px;">
+    <col style="width:80px;">
   </colgroup>
   <thead>
     <tr>
@@ -37,7 +37,7 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
   <colgroup>
     <col style="width:130px;">
     <col>
-    <col style="width:65px;">
+    <col style="width:80px;">
   </colgroup>
   <thead>
     <tr>
@@ -63,7 +63,7 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
   <colgroup>
     <col style="width:130px;">
     <col>
-    <col style="width:65px;">
+    <col style="width:80px;">
   </colgroup>
   <thead>
     <tr>
