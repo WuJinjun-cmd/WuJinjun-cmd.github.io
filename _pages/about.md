@@ -64,7 +64,6 @@ These are projects I plan to work on (some may be perpetually under construction
 
 - **QULEDA 错题自动批改系统** — Automated error grading system for QULEDA (currently on hold / abandoned)
 - **满满情绪价值系统** — A system that provides abundant emotional value
-- **预测前途一片光明/一片黯淡系统** — A fortune-telling system that predicts whether your future is bright or bleak
 
 ## Honors & Awards
 

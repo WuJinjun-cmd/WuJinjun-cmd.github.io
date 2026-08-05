@@ -1,0 +1,102 @@
+\documentclass{common/resume}
+
+\begin{document}
+
+%---------- HEADER ----------
+\resumeheader{吴金骏}
+  {jwufa@connect.ust.hk}
+  {WuJinjun-cmd}
+  {https://github.com/WuJinjun-cmd}
+
+%---------- 教育背景 ----------
+\section{教育背景}
+
+\entry{计算机科学 B.Eng}{香港科技大学 (HKUST)}
+  {2025年9月 -- 至今}{香港}
+
+\begin{itemize}
+  \item CGPA: 3.99/4.3（HKUST 前 2\%）
+  \item 2026年6月从微电子与集成电路专业转入
+  \item SENG 院长嘉许名单：2025--26 秋季、2025--26 春季
+\end{itemize}
+
+%---------- 研究兴趣 ----------
+\section{研究兴趣}
+
+网络安全 \textbullet{} 计算机体系结构 / 网络 \textbullet{} 人工智能
+
+%---------- 实习经历 ----------
+\section{实习经历}
+
+\entry{雅思助教}{QULEDA}
+  {2026年7月 -- 2026年8月}{}
+
+\begin{itemize}
+  \item 负责批改学生作业并提供详细反馈
+  \item 一对一英语口语辅导
+  \item 制作听力练习音频材料
+\end{itemize}
+
+%---------- 项目与比赛 ----------
+\section{项目与比赛}
+
+\projectentry{EdgeHealth-ML: 设备端多模态活动识别}{2026年6月}
+  {Python, PyTorch, torchvision, Claude Code}
+
+\begin{itemize}
+  \item 设计了双分支多模态融合架构：MobileNetV3-Small 用于 STFT 频谱特征，3层 1D-CNN 处理6通道加速度计+陀螺仪信号，通过拼接 + 2层 MLP（含 Dropout）融合
+  \item 在 UCI HAR 数据集（30位受试者，6种活动）上评估，动态活动准确率达 87.6\%（步行 100\%，上下楼梯 96\%）
+\end{itemize}
+
+\projectentry{Agent Breaker -- Lakera}{2026年7月}
+  {Prompt Injection, AI 安全}
+
+\begin{itemize}
+  \item 参加 GenAI 安全竞赛，通过 prompt injection 攻击绕过防御并操控 LLM，黑掉真实 AI 智能体
+  \item 获得 1787 分，全球排名前 200（前 2\%）
+\end{itemize}
+
+\projectentry{Kaggle 比赛: 恒星分类}{2026年5月}
+  {Python, NumPy, Pandas, Scikit-Learn, Matplotlib}
+
+\begin{itemize}
+  \item 从12维光度数据 $\mathbf{x} = \langle x_1, x_2, \ldots, x_{12} \rangle$ 分类星系和恒星类型，进行类别编码和 min-max 归一化预处理
+  \item 实现了 Decision Stump（从零编写）、KNN 和 K-means；KNN 在测试集上达 94\% 分类准确率
+\end{itemize}
+
+\projectentry{Skill Writer Skill}{}
+  {PowerShell, Claude Code}
+
+\begin{itemize}
+  \item 构建了一个 Claude Code 元工具技能，用于技能编写工作流
+\end{itemize}
+
+%---------- 相关课程 ----------
+\section{相关课程}
+
+\begin{itemize}
+  \item \textbf{COMP1023} Python 编程入门 (A+) \hfill \textbf{COMP2011} C++ 编程 (A+)
+  \item \textbf{COMP2012} 面向对象编程与数据结构 \hfill \textbf{COMP2211} 人工智能导论 (A+)
+  \item \textbf{COMP2611} 计算机组成 \hfill \textbf{COMP2711} 离散数学 (A)
+  \item \textbf{COMP3711} 算法设计与分析
+\end{itemize}
+
+%---------- 技能 ----------
+\section{技能}
+
+\textbf{编程语言:} Python, C++ \\
+\textbf{机器学习/深度学习框架:} Scikit-Learn, Keras, PyTorch \\
+\textbf{数据处理与可视化:} NumPy, Pandas, Matplotlib \\
+\textbf{系统:} Linux \\
+\textbf{生产力工具:} Claude Code, Trae \\
+\textbf{语言:} 普通话（母语），英语（IELTS 7.0）
+
+%---------- 荣誉与奖项 ----------
+\section{荣誉与奖项}
+
+\begin{itemize}
+  \item \textbf{大学持续本科生奖学金计划} -- HKD 40,000
+  \item \textbf{SENG 院长嘉许名单}，HKUST -- 2025--26 秋季、2025--26 春季
+\end{itemize}
+
+\end{document}

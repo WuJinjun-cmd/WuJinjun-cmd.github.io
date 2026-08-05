@@ -21,6 +21,14 @@ Selected projects from my [GitHub](https://github.com/WuJinjun-cmd).
 
 ---
 
+## 🔮 [Future Prediction System](https://wujinjun-cmd.github.io/Future-prediction-system/)
+
+A fortune-telling system that predicts whether your future is bright or bleak — because sometimes you just need to know.
+
+[[Live Demo]](https://wujinjun-cmd.github.io/Future-prediction-system/) &nbsp;|&nbsp; [[View on GitHub]](https://github.com/WuJinjun-cmd/Future-prediction-system)
+
+---
+
 <details>
   <summary><strong style="font-size:1.2em;">🛠️ Skills</strong></summary>
   <br/>
