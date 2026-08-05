@@ -45,10 +45,10 @@ CGPA: **3.99/4.3**（HKUST 前 2%）
 
 ### [Agent Breaker](https://play.lakera.ai/) — Lakera
 *2026年7月*  
-**分数: 1782 · 排行榜: #170（前 2%）**
+**分数: 1787 · 排行榜: 前 200（前 2%）**
 
 - 参加了 Agent Breaker 挑战赛——一个 GenAI 安全竞赛，目标是通过 prompt injection 攻击绕过防御并操控底层 LLM，跨多个级别黑掉真实世界的 AI 智能体
-- 攻击各类 GenAI 应用以窃取敏感数据、提取系统指令并操控 LLM 行为；获得 1782 分，全球排名 #170（参赛者前 2%）
+- 攻击各类 GenAI 应用以窃取敏感数据、提取系统指令并操控 LLM 行为；获得 1787 分，全球排名前 200（前 2%）
 
 ### Skill Writer Skill
 **工具:** PowerShell

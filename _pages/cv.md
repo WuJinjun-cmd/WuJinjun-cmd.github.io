@@ -50,10 +50,10 @@ Cybersecurity, Computer Architecture / Network, Artificial Intelligence
 
 ### [Agent Breaker](https://play.lakera.ai/) — Lakera
 *July 2026*  
-**Score: 1782 · Leaderboard: #170 (top 2%)**
+**Score: 1787 · Leaderboard: top 200 (top 2%)**
 
 - Participated in the Agent Breaker challenge — a GenAI security competition where the goal is to hack real-world AI agents across multiple levels using prompt injection attacks that bypass defenses and manipulate underlying LLMs
-- Attacked diverse GenAI applications to steal sensitive data, extract system instructions, and manipulate LLM behavior; scored 1782 points, ranking #170 globally among all participants (top 2%)
+- Attacked diverse GenAI applications to steal sensitive data, extract system instructions, and manipulate LLM behavior; scored 1787 points, ranking among top 200 globally (top 2%)
 
 ### Skill Writer Skill
 **Tools:** PowerShell
