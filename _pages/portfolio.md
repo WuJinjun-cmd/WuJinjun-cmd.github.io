@@ -31,22 +31,22 @@ A fortune-telling system that predicts whether your future is bright or bleak �
 
 ## 🛠️ Skills
 
-<details style="margin-left:1em;">
+<details style="margin-left:1em; margin-bottom:2px;">
   <summary><strong>📅 <a href="https://github.com/WuJinjun-cmd/schedule-skill">Schedule Skill</a></strong></summary>
-  <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
-  <p>A Claude Code skill to generate course schedules. Automates timetable creation from course data.</p>
+  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+  <p style="margin-top:2px;">A Claude Code skill to generate course schedules. Automates timetable creation from course data.</p>
 </details>
 
-<details style="margin-left:1em;">
+<details style="margin-left:1em; margin-bottom:2px;">
   <summary><strong>✍️ <a href="https://github.com/WuJinjun-cmd/skill-writer-skill">Skill Writer Skill</a></strong></summary>
-  <p><strong>Tools:</strong> PowerShell</p>
-  <p>A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.</p>
+  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> PowerShell</p>
+  <p style="margin-top:2px;">A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.</p>
 </details>
 
-<details style="margin-left:1em;">
+<details style="margin-left:1em; margin-bottom:2px;">
   <summary><strong>💝 <a href="https://github.com/WuJinjun-cmd/emotion-value-skill">Emotion Value Skill</a></strong></summary>
-  <p><strong>Tools:</strong> Claude Code</p>
-  <p>A Claude Code skill for emotional companionship — celebration, comfort, pep talks, and a friendly presence.</p>
+  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> Claude Code</p>
+  <p style="margin-top:2px;">A Claude Code skill for emotional companionship — celebration, comfort, pep talks, and a friendly presence.</p>
 </details>
 
 ---
