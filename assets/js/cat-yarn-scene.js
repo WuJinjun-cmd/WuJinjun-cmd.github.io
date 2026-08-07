@@ -133,6 +133,8 @@ function initializeScene(root) {
   let dragging = false;
   let activePointerId = null;
   let lastDragX = 0;
+  let depthPointerId = null;
+  let lastDepthX = 0;
   let currentMode = "";
   const catPosition = new THREE.Vector3(-2.15, 0, 0);
   const catVelocity = new THREE.Vector3();
@@ -235,6 +237,18 @@ function initializeScene(root) {
   }
 
   function onPointerDown(event) {
+    if (dragging) {
+      if (event.pointerType !== "touch" || depthPointerId !== null || event.pointerId === activePointerId) {
+        return;
+      }
+      event.preventDefault();
+      event.stopPropagation();
+      depthPointerId = event.pointerId;
+      lastDepthX = event.clientX;
+      canvas.setPointerCapture(depthPointerId);
+      return;
+    }
+
     setPointer(event);
     raycaster.setFromCamera(pointer, camera);
     const hits = raycaster.intersectObject(yarn.pickMesh, false);
@@ -255,7 +269,17 @@ function initializeScene(root) {
   }
 
   function onPointerMove(event) {
-    if (!dragging || event.pointerId !== activePointerId) return;
+    if (!dragging) return;
+    if (event.pointerId === depthPointerId) {
+      yarnTarget.z = THREE.MathUtils.clamp(
+        yarnTarget.z + (event.clientX - lastDepthX) * 0.012,
+        -3,
+        3
+      );
+      lastDepthX = event.clientX;
+      return;
+    }
+    if (event.pointerId !== activePointerId || depthPointerId !== null) return;
     if (event.shiftKey) {
       yarnTarget.z = THREE.MathUtils.clamp(
         yarnTarget.z + (event.clientX - lastDragX) * 0.012,
@@ -291,6 +315,13 @@ function initializeScene(root) {
   }
 
   function finishDrag(event) {
+    if (event.pointerId === depthPointerId) {
+      if (canvas.hasPointerCapture(depthPointerId)) {
+        canvas.releasePointerCapture(depthPointerId);
+      }
+      depthPointerId = null;
+      return;
+    }
     if (!dragging || event.pointerId !== activePointerId) return;
 
     dragging = false;
@@ -299,8 +330,12 @@ function initializeScene(root) {
     if (canvas.hasPointerCapture(activePointerId)) {
       canvas.releasePointerCapture(activePointerId);
     }
+    if (depthPointerId !== null && canvas.hasPointerCapture(depthPointerId)) {
+      canvas.releasePointerCapture(depthPointerId);
+    }
     yarnVelocity.set(0, 0, 0);
     activePointerId = null;
+    depthPointerId = null;
   }
 
   canvas.addEventListener("pointerdown", onPointerDown, { capture: true });
@@ -513,7 +548,7 @@ function getText(locale) {
   if (locale === "zh") {
     return {
       title: "\u67ab\u6797\u4e2d\u7684\u6bdb\u7ebf\u7403",
-      hint: "\u62d6\u52a8\u6bdb\u7ebf\u7403\u6539\u53d8 X/Y \u4f4d\u7f6e\uff0c\u6309\u4f4f Shift \u5e76\u6c34\u5e73\u79fb\u52a8\u6539\u53d8 Z \u6df1\u5ea6\uff0c\u6eda\u8f6e\u53ef\u5fae\u8c03\u3002\u677e\u624b\u540e\u5b83\u4f1a\u53d7\u91cd\u529b\u4e0b\u843d\uff0c\u62d6\u52a8\u7a7a\u767d\u5904\u53ef\u65cb\u8f6c 3D \u89c6\u89d2\u3002",
+      hint: "\u62d6\u52a8\u6bdb\u7ebf\u7403\u6539\u53d8 X/Y \u4f4d\u7f6e\uff0c\u6309\u4f4f Shift \u5e76\u6c34\u5e73\u79fb\u52a8\u6539\u53d8 Z \u6df1\u5ea6\uff0c\u6eda\u8f6e\u53ef\u5fae\u8c03\u3002\u624b\u673a\u7aef\u7528\u4e00\u6839\u624b\u6307\u62d6\u52a8\uff0c\u518d\u7528\u7b2c\u4e8c\u6839\u624b\u6307\u6c34\u5e73\u79fb\u52a8\u6539\u53d8 Z \u6df1\u5ea6\u3002\u677e\u624b\u540e\u5b83\u4f1a\u53d7\u91cd\u529b\u4e0b\u843d\uff0c\u62d6\u52a8\u7a7a\u767d\u5904\u53ef\u65cb\u8f6c 3D \u89c6\u89d2\u3002",
       loading: "3D \u573a\u666f\u52a0\u8f7d\u4e2d...",
       lightTime: "\u81ea\u7136\u5149\u7167\u540c\u6b65\u5f53\u524d\u65f6\u95f4",
       views: {
@@ -533,7 +568,7 @@ function getText(locale) {
 
   return {
     title: "Yarn ball in the maple grove",
-    hint: "Drag the yarn ball for X/Y placement. Hold Shift and move horizontally to adjust Z depth; use the wheel for fine control. Release it in the air and gravity pulls it down; drag open space to orbit the 3D scene.",
+    hint: "Drag the yarn ball for X/Y placement. Hold Shift and move horizontally to adjust Z depth; use the wheel for fine control. On touch devices, drag with one finger and move a second finger horizontally to adjust Z depth. Release it in the air and gravity pulls it down; drag open space to orbit the 3D scene.",
     loading: "Loading the 3D scene...",
     lightTime: "Natural light synced to local time",
     views: {
