@@ -1,0 +1,229 @@
+{% include base_path %}
+
+<style>
+  .cat-yarn-card {
+    --cat-yarn-ink: #2d211c;
+    --cat-yarn-paper: #fff6e9;
+    --cat-yarn-red: #ba3f2e;
+    --cat-yarn-line: rgba(100, 55, 34, 0.2);
+    position: relative;
+    overflow: hidden;
+    min-height: clamp(360px, 54vw, 560px);
+    margin: 0 0 2.25rem;
+    border: 1px solid var(--cat-yarn-line);
+    border-radius: 1.35rem;
+    background:
+      radial-gradient(circle at 13% 16%, rgba(243, 165, 93, 0.28), transparent 26%),
+      radial-gradient(circle at 82% 22%, rgba(176, 59, 41, 0.2), transparent 24%),
+      linear-gradient(135deg, #fffaf1 0%, #f8e5cd 48%, #efd4b9 100%);
+    box-shadow: 0 18px 42px rgba(101, 57, 34, 0.16);
+  }
+
+  .cat-yarn-card::before,
+  .cat-yarn-card::after {
+    position: absolute;
+    z-index: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 999px;
+    content: "";
+    filter: blur(2px);
+    pointer-events: none;
+  }
+
+  .cat-yarn-card::before {
+    top: -5rem;
+    right: -3rem;
+    background: rgba(208, 91, 54, 0.16);
+  }
+
+  .cat-yarn-card::after {
+    bottom: -7rem;
+    left: 26%;
+    background: rgba(255, 204, 120, 0.2);
+  }
+
+  .cat-yarn-card__viewport {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+  .cat-yarn-card__viewport canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .cat-yarn-card.is-dragging .cat-yarn-card__viewport canvas {
+    cursor: grabbing;
+  }
+
+  .cat-yarn-card__copy {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.1rem 1.2rem;
+    pointer-events: none;
+  }
+
+  .cat-yarn-card__eyebrow {
+    margin: 0;
+    color: var(--cat-yarn-ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .cat-yarn-card__hint {
+    max-width: 34rem;
+    margin: 0.35rem 0 0;
+    color: rgba(45, 33, 28, 0.72);
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .cat-yarn-card__light-time {
+    display: inline-block;
+    margin-top: 0.35rem;
+    color: rgba(45, 33, 28, 0.58);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+  }
+
+  .cat-yarn-card.is-night .cat-yarn-card__eyebrow {
+    color: #fff3df;
+  }
+
+  .cat-yarn-card.is-night .cat-yarn-card__hint,
+  .cat-yarn-card.is-night .cat-yarn-card__light-time {
+    color: rgba(255, 243, 223, 0.78);
+  }
+
+  .cat-yarn-card__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    pointer-events: auto;
+  }
+
+  .cat-yarn-card__controls button {
+    appearance: none;
+    min-height: 2rem;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid rgba(91, 51, 32, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 250, 242, 0.78);
+    color: var(--cat-yarn-ink);
+    font: 600 0.76rem/1 Georgia, "Times New Roman", serif;
+    cursor: pointer;
+    transition: transform 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .cat-yarn-card__controls button:hover,
+  .cat-yarn-card__controls button:focus-visible {
+    outline: none;
+    background: #fffdf8;
+    box-shadow: 0 4px 12px rgba(108, 55, 31, 0.16);
+    transform: translateY(-1px);
+  }
+
+  .cat-yarn-card__controls button.is-active {
+    border-color: transparent;
+    background: var(--cat-yarn-red);
+    color: #fff9f2;
+  }
+
+  .cat-yarn-card__status {
+    position: absolute;
+    z-index: 2;
+    bottom: 1.05rem;
+    left: 1.2rem;
+    max-width: min(26rem, calc(100% - 2.4rem));
+    padding: 0.55rem 0.78rem;
+    border: 1px solid rgba(91, 51, 32, 0.15);
+    border-radius: 999px;
+    background: rgba(255, 250, 242, 0.78);
+    color: rgba(45, 33, 28, 0.84);
+    font-size: 0.78rem;
+    line-height: 1.25;
+    pointer-events: none;
+    backdrop-filter: blur(8px);
+  }
+
+  .cat-yarn-card__loading {
+    position: absolute;
+    inset: auto 1.2rem 1.1rem auto;
+    z-index: 2;
+    color: rgba(45, 33, 28, 0.58);
+    font-size: 0.75rem;
+    pointer-events: none;
+  }
+
+  .cat-yarn-card.is-ready .cat-yarn-card__loading {
+    display: none;
+  }
+
+  @media (max-width: 42em) {
+    .cat-yarn-card {
+      min-height: 430px;
+      border-radius: 1rem;
+    }
+
+    .cat-yarn-card__copy {
+      display: block;
+      padding: 0.9rem;
+    }
+
+    .cat-yarn-card__hint {
+      max-width: 20rem;
+      font-size: 0.77rem;
+    }
+
+    .cat-yarn-card__controls {
+      justify-content: flex-start;
+      margin-top: 0.7rem;
+    }
+
+    .cat-yarn-card__status {
+      bottom: 0.85rem;
+      left: 0.9rem;
+      font-size: 0.72rem;
+    }
+  }
+</style>
+
+<section
+  class="cat-yarn-card"
+  data-cat-yarn-scene
+  data-scene-locale="{% if page.url contains '/zh/' %}zh{% else %}en{% endif %}"
+>
+  <div class="cat-yarn-card__copy">
+    <div>
+      <p class="cat-yarn-card__eyebrow" data-scene-title>Maple forest playground</p>
+      <p class="cat-yarn-card__hint" data-scene-hint>Loading the interactive 3D scene...</p>
+      <span class="cat-yarn-card__light-time" data-scene-light-time aria-live="polite"></span>
+    </div>
+    <div class="cat-yarn-card__controls" role="group" aria-label="Camera view">
+      <button type="button" data-scene-view="front">Front</button>
+      <button type="button" data-scene-view="side">Side</button>
+      <button type="button" data-scene-view="top">High</button>
+    </div>
+  </div>
+
+    <div class="cat-yarn-card__status" data-scene-status>Loading...</div>
+
+  <div class="cat-yarn-card__viewport">
+    <canvas data-scene-canvas role="img" aria-label="Interactive 3D maple forest with a gray cat and a yarn ball"></canvas>
+    <span class="cat-yarn-card__loading" data-scene-loading>Loading 3D...</span>
+  </div>
+</section>
+
+<script type="module" src="{{ '/assets/js/cat-yarn-scene.js' | relative_url }}"></script>
