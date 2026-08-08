@@ -20,4 +20,5 @@ Move the gray cat through a maple grove by guiding the yarn ball. The cat avoids
 - On touch devices, drag the yarn ball with one finger and move a second finger horizontally to adjust Z depth.
 - Release the yarn ball in the air to let gravity bring it down.
 - Drag open space to orbit the 3D view, or use the camera buttons for preset views.
-- Place the yarn ball on a branch to make the cat sleep beneath that tree.
+- Place the yarn ball on any maple tree's canopy or branch to make the cat sleep beneath that tree.
+- Click `Reset yarn` to return the ball to its starting position.

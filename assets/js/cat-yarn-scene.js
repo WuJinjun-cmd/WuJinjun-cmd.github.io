@@ -18,6 +18,7 @@ function initializeScene(root) {
   const status = root.querySelector("[data-scene-status]");
   const lightTime = root.querySelector("[data-scene-light-time]");
   const viewButtons = [...root.querySelectorAll("[data-scene-view]")];
+  const resetButton = root.querySelector("[data-scene-reset]");
   const loading = root.querySelector("[data-scene-loading]");
 
   title.textContent = text.title;
@@ -29,6 +30,7 @@ function initializeScene(root) {
   viewButtons.forEach((button) => {
     button.textContent = text.views[button.dataset.sceneView];
   });
+  if (resetButton) resetButton.textContent = text.reset;
 
   const renderer = new THREE.WebGLRenderer({
     antialias: true,
@@ -98,6 +100,7 @@ function initializeScene(root) {
     variation: { trunk: 1.22, spread: 1.05, leafDensity: 1, extraBranches: 4, seed: 20 },
   });
   world.add(tree.group);
+  const treeSupports = [tree, ...forest.trees];
 
   const refreshTimeLighting = makeTimeLighting({
     root,
@@ -118,7 +121,8 @@ function initializeScene(root) {
   world.add(cat.root);
 
   const yarnRadius = 0.28;
-  const yarnPoint = new THREE.Vector3(-0.72, yarnRadius, 0);
+  const initialYarnPoint = new THREE.Vector3(-0.72, yarnRadius, 0);
+  const yarnPoint = initialYarnPoint.clone();
   const yarnTarget = yarnPoint.clone();
   const yarnVelocity = new THREE.Vector3();
   const stagePlane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0);
@@ -178,9 +182,48 @@ function initializeScene(root) {
     });
   }
 
+  function getTreeSupport(point) {
+    const branchSupport = treeSupports.find((candidate) => isOnBranchSupport(point, candidate));
+    if (branchSupport) return branchSupport;
+
+    return treeSupports
+      .filter((candidate) => isOnTree(point, candidate))
+      .sort((first, second) => {
+        const firstDistance = Math.hypot(
+          point.x - first.collider.x,
+          point.z - first.collider.z
+        );
+        const secondDistance = Math.hypot(
+          point.x - second.collider.x,
+          point.z - second.collider.z
+        );
+        return firstDistance - secondDistance;
+      })[0] || null;
+  }
+
+  function resetYarn() {
+    if (activePointerId !== null && canvas.hasPointerCapture(activePointerId)) {
+      canvas.releasePointerCapture(activePointerId);
+    }
+    if (depthPointerId !== null && canvas.hasPointerCapture(depthPointerId)) {
+      canvas.releasePointerCapture(depthPointerId);
+    }
+    dragging = false;
+    controls.enabled = true;
+    root.classList.remove("is-dragging");
+    activePointerId = null;
+    depthPointerId = null;
+    yarnPoint.copy(initialYarnPoint);
+    yarnTarget.copy(initialYarnPoint);
+    yarnVelocity.set(0, 0, 0);
+    currentMode = "";
+    updateStatus("chase");
+  }
+
   viewButtons.forEach((button) => {
     button.addEventListener("click", () => setView(button.dataset.sceneView));
   });
+  if (resetButton) resetButton.addEventListener("click", resetYarn);
 
   controls.addEventListener("start", () => {
     if (!dragging) {
@@ -334,6 +377,7 @@ function initializeScene(root) {
       canvas.releasePointerCapture(depthPointerId);
     }
     yarnVelocity.set(0, 0, 0);
+    yarnPoint.copy(yarnTarget);
     activePointerId = null;
     depthPointerId = null;
   }
@@ -345,7 +389,7 @@ function initializeScene(root) {
   canvas.addEventListener("wheel", onWheel, { passive: false });
 
   function getMode(point) {
-    if (isOnBranchSupport(point, tree)) return "sleep";
+    if (getTreeSupport(point)) return "sleep";
     if (point.y <= yarnRadius + 0.08) {
       return Math.hypot(point.x - catPosition.x, point.z - catPosition.z) < 1.2
         ? "play"
@@ -366,9 +410,9 @@ function initializeScene(root) {
     lastFrame = frameTime;
 
     if (dragging) {
-      yarnPoint.lerp(yarnTarget, 0.42);
+      yarnPoint.copy(yarnTarget);
       yarnVelocity.set(0, 0, 0);
-    } else if (!isOnBranchSupport(yarnPoint, tree)) {
+    } else if (!getTreeSupport(yarnPoint)) {
       yarnVelocity.y += gravity * delta;
       yarnPoint.addScaledVector(yarnVelocity, delta);
       yarnPoint.x += yarnVelocity.x * delta;
@@ -386,6 +430,7 @@ function initializeScene(root) {
     }
 
     updateYarn(yarn, yarnPoint, elapsed, yarnVelocity.x);
+    const supportTree = getTreeSupport(yarnPoint);
     const mode = getMode(yarnPoint);
     updateStatus(mode);
     const ballDelta = new THREE.Vector3(
@@ -405,7 +450,7 @@ function initializeScene(root) {
         -Math.min(ballGap, ballDistance)
       )
       : mode === "sleep"
-        ? new THREE.Vector3(tree.sleepX, 0, tree.sleepZ)
+        ? new THREE.Vector3(supportTree.sleepX, 0, supportTree.sleepZ)
         : new THREE.Vector3(-1.85 + Math.sin(elapsed * 0.55) * 0.35, 0, 0);
     if (mode === "chase" || mode === "play") {
       resolveCatPosition(targetPosition, catColliders);
@@ -425,10 +470,6 @@ function initializeScene(root) {
     catVelocity.multiplyScalar(mode === "sleep" ? 0.76 : 0.84);
     catPosition.addScaledVector(catVelocity, delta * catMovementScale);
     resolveCatPosition(catPosition, catColliders);
-    if (mode === "sleep") {
-      catPosition.x = Math.max(catPosition.x, tree.sleepX);
-    }
-
     if (ballDistance > 0.04 && (mode === "chase" || mode === "play")) {
       catYaw = Math.atan2(-ballDirection.z, ballDirection.x);
     } else if (catVelocity.length() > 0.015 && mode !== "sleep") {
@@ -549,6 +590,7 @@ function getText(locale) {
     return {
       title: "\u67ab\u6797\u4e2d\u7684\u6bdb\u7ebf\u7403",
       hint: "\u62d6\u52a8\u6bdb\u7ebf\u7403\u6539\u53d8 X/Y \u4f4d\u7f6e\uff0c\u6309\u4f4f Shift \u5e76\u6c34\u5e73\u79fb\u52a8\u6539\u53d8 Z \u6df1\u5ea6\uff0c\u6eda\u8f6e\u53ef\u5fae\u8c03\u3002\u624b\u673a\u7aef\u7528\u4e00\u6839\u624b\u6307\u62d6\u52a8\uff0c\u518d\u7528\u7b2c\u4e8c\u6839\u624b\u6307\u6c34\u5e73\u79fb\u52a8\u6539\u53d8 Z \u6df1\u5ea6\u3002\u677e\u624b\u540e\u5b83\u4f1a\u53d7\u91cd\u529b\u4e0b\u843d\uff0c\u62d6\u52a8\u7a7a\u767d\u5904\u53ef\u65cb\u8f6c 3D \u89c6\u89d2\u3002",
+      reset: "\u91cd\u7f6e\u6bdb\u7ebf\u7403",
       loading: "3D \u573a\u666f\u52a0\u8f7d\u4e2d...",
       lightTime: "\u81ea\u7136\u5149\u7167\u540c\u6b65\u5f53\u524d\u65f6\u95f4",
       views: {
@@ -561,7 +603,7 @@ function getText(locale) {
         play: "\u5c0f\u732b\u5df2\u7ecf\u505c\u5728\u6bdb\u7ebf\u7403\u524d\uff0c\u5f00\u5fc3\u5730\u7528\u524d\u722a\u62cd\u5b83\u3002",
         fall: "\u6bdb\u7ebf\u7403\u6b63\u5728\u53d7\u91cd\u529b\u4e0b\u843d\u3002",
         watch: "\u6bdb\u7ebf\u7403\u5728\u7a7a\u4e2d\uff0c\u5c0f\u732b\u6b63\u5728\u6293\u4f4f\u5b83\u7684\u76ee\u5149\u3002",
-        sleep: "\u6bdb\u7ebf\u7403\u505c\u5728\u6811\u679d\u4e0a\uff0c\u5c0f\u732b\u5377\u8d77\u6765\u4f11\u606f\u3002",
+        sleep: "\u6bdb\u7ebf\u7403\u505c\u5728\u67ab\u6811\u4e0a\uff0c\u5c0f\u732b\u5377\u8d77\u6765\u4f11\u606f\u3002",
       },
     };
   }
@@ -569,6 +611,7 @@ function getText(locale) {
   return {
     title: "Yarn ball in the maple grove",
     hint: "Drag the yarn ball for X/Y placement. Hold Shift and move horizontally to adjust Z depth; use the wheel for fine control. On touch devices, drag with one finger and move a second finger horizontally to adjust Z depth. Release it in the air and gravity pulls it down; drag open space to orbit the 3D scene.",
+    reset: "Reset yarn",
     loading: "Loading the 3D scene...",
     lightTime: "Natural light synced to local time",
     views: {
@@ -581,7 +624,7 @@ function getText(locale) {
       play: "The cat has stopped in front of the yarn and is happily batting it with both paws.",
       fall: "The yarn ball is falling under gravity.",
       watch: "The yarn is in the air, and the cat is keeping a close eye on it.",
-      sleep: "The yarn reached the tree, so the cat has curled up for a nap.",
+      sleep: "The yarn reached a maple tree, so the cat has curled up for a nap.",
     },
   };
 }
@@ -604,7 +647,7 @@ function makeGround() {
   const ground = new THREE.Mesh(
     new THREE.PlaneGeometry(15, 11),
     new THREE.MeshStandardMaterial({
-      color: 0x4f633d,
+      color: 0x6a6541,
       roughness: 1,
       metalness: 0,
       transparent: true,
@@ -616,7 +659,7 @@ function makeGround() {
   ground.receiveShadow = true;
   group.add(ground);
 
-  const grassMaterials = [0x4d6a35, 0x607d3e, 0x78924a, 0x3c5a32].map(
+  const grassMaterials = [0x6f693f, 0x927944, 0x7e6039, 0x5f5d3a, 0xa0834a].map(
     (color) => new THREE.MeshStandardMaterial({ color, roughness: 0.98 })
   );
   const bladeGeometry = new THREE.ConeGeometry(0.032, 0.24, 5);
@@ -650,7 +693,7 @@ function makeGround() {
   const fallenLeafMaterials = [0x8f2f25, 0xb7472d, 0xd36b35, 0xe08a43, 0x7a3828].map(
     (color) => new THREE.MeshStandardMaterial({ color, roughness: 0.92, side: THREE.DoubleSide })
   );
-  const fallenLeafCount = 150;
+  const fallenLeafCount = 240;
   for (let index = 0; index < fallenLeafCount; index += 1) {
     const randomX = Math.abs(Math.sin(index * 12.9898 + 4.17));
     const randomZ = Math.abs(Math.sin(index * 78.233 + 1.91));
@@ -664,7 +707,7 @@ function makeGround() {
       (randomX - 0.5) * 0.2,
       randomX * Math.PI * 2
     );
-    leaf.scale.setScalar(0.085 + (index % 5) * 0.014);
+    leaf.scale.setScalar(0.11 + (index % 5) * 0.018);
     leaf.castShadow = false;
     leaf.receiveShadow = true;
     group.add(leaf);
@@ -677,6 +720,7 @@ function makeForest() {
   const group = new THREE.Group();
   const windGroups = [];
   const colliders = [];
+  const treeSupports = [];
   const trees = [
     {
       position: new THREE.Vector3(-5.45, 0, -3.55),
@@ -715,19 +759,20 @@ function makeForest() {
     group.add(tree.group);
     windGroups.push(...tree.windGroups);
     colliders.push(tree.collider);
+    treeSupports.push(tree);
   });
 
   const shrubbery = makeShrubbery();
   group.add(shrubbery.group);
   colliders.push(...shrubbery.colliders);
 
-  return { group, windGroups, colliders };
+  return { group, windGroups, colliders, trees: treeSupports };
 }
 
 function makeShrubbery() {
   const group = new THREE.Group();
   const colliders = [];
-  const materials = [0x365436, 0x48683a, 0x5f7b42, 0x2e4b36].map(
+  const materials = [0x5f623b, 0x7a6a3d, 0x94643b, 0x6b5238, 0x8a753f].map(
     (color) => new THREE.MeshStandardMaterial({ color, roughness: 0.96 })
   );
   const geometry = new THREE.IcosahedronGeometry(0.48, 1);
@@ -959,6 +1004,7 @@ function makeTree(options = {}) {
       right: position.x + 3.6 * scale,
       bottom: position.y + 3.9 * scale,
       top: position.y + 7.45 * scale,
+      depth: 1.1 * scale,
     },
   };
 }
@@ -1651,9 +1697,9 @@ function isOnBranchSupport(point, tree) {
   const position = new THREE.Vector2(point.x, point.y);
 
   return tree.hitSegments.some((segment) => (
-    distanceToSegment(position, segment.start, segment.end) < segment.radius + 0.14 &&
-    Math.abs(point.z - segment.z) < segment.radius + 0.18 &&
-    point.y > 0.55
+    distanceToSegment(position, segment.start, segment.end) < segment.radius + 0.24 &&
+    Math.abs(point.z - segment.z) < segment.radius + 0.3 &&
+    point.y > 0.45
   ));
 }
 
@@ -1664,7 +1710,8 @@ function isOnTree(point, tree) {
     point.x >= tree.canopyBounds.left &&
     point.x <= tree.canopyBounds.right &&
     point.y >= tree.canopyBounds.bottom &&
-    point.y <= tree.canopyBounds.top
+    point.y <= tree.canopyBounds.top &&
+    Math.abs(point.z - tree.collider.z) <= tree.canopyBounds.depth
   );
 }
 
