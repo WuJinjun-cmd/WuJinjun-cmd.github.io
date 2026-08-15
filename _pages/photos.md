@@ -21,6 +21,19 @@ redirect_from:
     --travel-school: #6b5b95;
     --travel-trip: #d66f5f;
     --travel-gold: #c68c3b;
+    --travel-land-alt-a: #d9e6d9;
+    --travel-land-alt-b: #cfe0d3;
+    --travel-land-hover: #bed7c5;
+    --travel-province-stroke: rgba(116, 151, 124, 0.72);
+    --travel-province-stroke-hover: #527e61;
+    --travel-grid-line: #9eb8b2;
+    --travel-sea-label: #8ea9aa;
+    --travel-control-ink: #222222;
+    --travel-control-hover: #f2f2f2;
+    --travel-callout-surface: rgba(255, 255, 255, 0.97);
+    --travel-callout-ink: #222222;
+    --travel-callout-muted: #5f675f;
+    --travel-shadow: 0 12px 30px rgba(45, 69, 54, 0.07);
     color: var(--travel-ink);
   }
 
@@ -36,10 +49,10 @@ redirect_from:
   .travel-language-button {
     min-width: 2.7rem;
     padding: 4px 12px;
-    border: 1.5px solid #222;
+    border: 1.5px solid var(--travel-control-ink);
     border-radius: 4px;
     background: transparent;
-    color: #222;
+    color: var(--travel-control-ink);
     cursor: pointer;
     font: inherit;
     font-size: 0.9em;
@@ -50,8 +63,8 @@ redirect_from:
   .travel-language-button:hover,
   .travel-language-button:focus-visible,
   .travel-language-button.is-active {
-    background: #f2f2f2;
-    color: #222;
+    background: var(--travel-control-hover);
+    color: var(--travel-control-ink);
     outline: none;
   }
 
@@ -130,7 +143,7 @@ redirect_from:
     border: 1px solid var(--travel-border);
     border-radius: 14px;
     background: var(--travel-surface-strong);
-    box-shadow: 0 12px 30px rgba(45, 69, 54, 0.07);
+    box-shadow: var(--travel-shadow);
   }
 
   .travel-map-card {
@@ -201,7 +214,8 @@ redirect_from:
   .travel-map .legacy-map { display: none; }
 
   .map-ocean { fill: var(--travel-ocean); }
-  .map-grid { fill: url(#travel-grid); opacity: 0.65; }
+  .accurate-map .map-grid { fill: url(#accurate-grid); opacity: 0.65; }
+  #accurate-grid path { stroke: var(--travel-grid-line); }
   .map-status {
     fill: var(--travel-muted);
     font-size: 18px;
@@ -209,17 +223,17 @@ redirect_from:
   }
   .province-shape {
     fill: var(--travel-land);
-    stroke: rgba(116, 151, 124, 0.72);
+    stroke: var(--travel-province-stroke);
     stroke-width: 0.8;
     stroke-linejoin: round;
     vector-effect: non-scaling-stroke;
     transition: fill 0.2s ease, stroke 0.2s ease;
   }
-  .province-shape:nth-child(3n) { fill: #d9e6d9; }
-  .province-shape:nth-child(4n) { fill: #cfe0d3; }
+  .province-shape:nth-child(3n) { fill: var(--travel-land-alt-a); }
+  .province-shape:nth-child(4n) { fill: var(--travel-land-alt-b); }
   .province-shape:hover {
-    fill: #bed7c5;
-    stroke: #527e61;
+    fill: var(--travel-land-hover);
+    stroke: var(--travel-province-stroke-hover);
   }
   .map-route {
     fill: none;
@@ -231,7 +245,7 @@ redirect_from:
     opacity: 0.68;
   }
   .map-sea-label {
-    fill: #8ea9aa;
+    fill: var(--travel-sea-label);
     font-size: 15px;
     letter-spacing: 0.16em;
   }
@@ -271,26 +285,26 @@ redirect_from:
 
   .pin-callout-line {
     fill: none;
-    stroke: #222;
+    stroke: var(--travel-callout-ink);
     stroke-width: 1.4;
     vector-effect: non-scaling-stroke;
   }
 
   .pin-callout-box {
-    fill: rgba(255, 255, 255, 0.97);
-    stroke: #222;
+    fill: var(--travel-callout-surface);
+    stroke: var(--travel-callout-ink);
     stroke-width: 1.4;
     vector-effect: non-scaling-stroke;
   }
 
   .pin-callout-city {
-    fill: #222;
+    fill: var(--travel-callout-ink);
     font-size: 18px;
     font-weight: 700;
   }
 
   .pin-callout-meta {
-    fill: #5f675f;
+    fill: var(--travel-callout-muted);
     font-size: 13px;
   }
 
@@ -315,10 +329,10 @@ redirect_from:
     align-items: center;
     width: auto;
     padding: 4px 12px;
-    border: 1.5px solid #222;
+    border: 1.5px solid var(--travel-control-ink);
     border-radius: 4px;
     background: transparent;
-    color: #222;
+    color: var(--travel-control-ink);
     cursor: pointer;
     font: inherit;
     font-size: 1em;
@@ -330,9 +344,9 @@ redirect_from:
   .map-annotation:hover,
   .map-annotation:focus-visible,
   .map-annotation.is-active {
-    border-color: #222;
-    background: #f2f2f2;
-    color: #222;
+    border-color: var(--travel-control-ink);
+    background: var(--travel-control-hover);
+    color: var(--travel-control-ink);
     outline: none;
   }
 
@@ -411,10 +425,10 @@ redirect_from:
     width: auto;
     margin: 0 0.4rem 0.5rem 0;
     padding: 4px 12px;
-    border: 1.5px solid #222;
+    border: 1.5px solid var(--travel-control-ink);
     border-radius: 4px;
     background: transparent;
-    color: #222;
+    color: var(--travel-control-ink);
     cursor: pointer;
     font: inherit;
     font-size: 1em;
@@ -426,9 +440,9 @@ redirect_from:
   .travel-stop:hover,
   .travel-stop:focus-visible,
   .travel-stop.is-active {
-    border-color: #222;
-    background: #f2f2f2;
-    color: #222;
+    border-color: var(--travel-control-ink);
+    background: var(--travel-control-hover);
+    color: var(--travel-control-ink);
     outline: none;
   }
 
@@ -488,26 +502,39 @@ redirect_from:
 
   html[data-theme="dark"] .travel-page {
     --travel-ink: #e8eee8;
-    --travel-muted: #a8b5aa;
-    --travel-surface: #233129;
-    --travel-surface-strong: #1c2821;
-    --travel-border: #3d5044;
-    --travel-ocean: #203038;
-    --travel-land: #395342;
-    --travel-land-shadow: #2f4939;
-    --travel-route: #df9b72;
+    --travel-muted: #c1c9c3;
+    --travel-surface: #414141;
+    --travel-surface-strong: #3d3d3d;
+    --travel-border: #686868;
+    --travel-ocean: #26363d;
+    --travel-land: #476251;
+    --travel-land-shadow: #35493c;
+    --travel-route: #f0a27a;
     --travel-home: #66bc95;
     --travel-school: #b2a1e1;
     --travel-trip: #ef8a76;
+    --travel-land-alt-a: #526f5c;
+    --travel-land-alt-b: #3e5949;
+    --travel-land-hover: #63836c;
+    --travel-province-stroke: #7f9886;
+    --travel-province-stroke-hover: #bdd0c1;
+    --travel-grid-line: #718783;
+    --travel-sea-label: #a5b9ba;
+    --travel-control-ink: #f3f3f3;
+    --travel-control-hover: #555555;
+    --travel-callout-surface: #353b37;
+    --travel-callout-ink: #f5f7f5;
+    --travel-callout-muted: #c5cec7;
+    --travel-shadow: 0 12px 30px rgba(0, 0, 0, 0.24);
   }
 </style>
 
-<div class="travel-language-switch" role="group" aria-label="Language">
-  <button class="travel-language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
-  <button class="travel-language-button" type="button" data-language="zh" aria-pressed="false">中</button>
-</div>
-
 <div class="travel-page">
+  <div class="travel-language-switch" role="group" aria-label="Language">
+    <button class="travel-language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+    <button class="travel-language-button" type="button" data-language="zh" aria-pressed="false">中</button>
+  </div>
+
   <section class="travel-intro" aria-labelledby="travel-heading">
     <div>
       <p class="travel-eyebrow">A map of places that shaped my year</p>
