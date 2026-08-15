@@ -16,7 +16,8 @@ author_profile: true
 
 **计算机科学 B.Eng**（2026年6月从微电子与集成电路专业转入）  
 <span style="display:flex; justify-content:space-between;"><span>*香港科技大学 (HKUST)*</span><span>2025年9月 – 至今</span></span>
-CGPA: **3.99/4.3**（HKUST 前 2%）
+CGPA: **3.99/4.3**（HKUST 前 2%）  
+专业 CGPA: **4.195/4.3**
 
 ## 实习经历
 

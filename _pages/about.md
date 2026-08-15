@@ -19,7 +19,8 @@ Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Com
 
 **B.Eng in Computer Science** (transferred from B.Eng in Microelectronics and Integrated Circuits in June 2026)  
 <span style="display:flex; justify-content:space-between;"><span>*The Hong Kong University of Science and Technology (HKUST)*</span><span>September 2025 – Present</span></span>
-CGPA: **3.99/4.3** (top 2% in HKUST)
+CGPA: **3.99/4.3** (top 2% in HKUST)  
+Major CGPA: **4.195/4.3**
 
 ## Experience
 
