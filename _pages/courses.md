@@ -27,7 +27,6 @@ Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
 
     <tr><td><strong>COMP3711</strong></td><td><strong>Design and Analysis of Algorithms</strong></td><td>3.0</td></tr>
     <tr><td><strong>COMP4900</strong></td><td><strong>Academic and Professional Development</strong></td><td>0.0</td></tr>
-    <tr><td><strong>ELEC3120</strong></td><td><strong>Computer Communication Networks</strong></td><td>3.0</td></tr>
     <tr><td><strong>MATH2121</strong></td><td><strong>Linear Algebra</strong></td><td>4.0</td></tr>
     <tr><td><strong>MATH2411</strong></td><td><strong>Applied Statistics</strong></td><td>4.0</td></tr>
   </tbody>
