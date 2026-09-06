@@ -11,9 +11,11 @@ redirect_from:
 
 Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
 
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Cybersecurity</span>
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Architecture / Network</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Networks</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Systems</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Artificial Intelligence</span>
+
+<span style="font-weight:bold; margin-right:10px;">Download PDF</span> <a href="/files/resume.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/resume-zh.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
 ## Education
 
@@ -21,6 +23,19 @@ Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Com
 <span style="display:flex; justify-content:space-between;"><span>*The Hong Kong University of Science and Technology (HKUST)*</span><span>September 2025 – Present</span></span>
 CGPA: **3.99/4.3** (top 2% in HKUST)  
 Major CGPA: **4.195/4.3**
+
+<details>
+  <summary><strong>Course Grades</strong></summary>
+
+  <ul style="margin-top:8px;">
+    <li><strong>COMP1023</strong> Introduction to Python Programming — 95.20 (A+)</li>
+    <li><strong>COMP2011</strong> Programming with C++ — 95.14 (A+)</li>
+    <li><strong>COMP2211</strong> Introduction to Artificial Intelligence — 91.31 (A+)</li>
+    <li><strong>COMP2711</strong> Discrete Mathematical Tools for Computer Science — 93.0 (A)</li>
+    <li><strong>MATH1013</strong> Calculus I — 93.68 (A+)</li>
+    <li><strong>MATH1014</strong> Calculus II — 92.45 (A)</li>
+  </ul>
+</details>
 
 ## Experience
 

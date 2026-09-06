@@ -8,9 +8,11 @@ author_profile: true
 
 你好，我是 **WU, Jinjun (吴金骏)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学及工程学系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
 
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">网络安全</span>
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机体系结构 / 网络</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机网络</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机系统</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">人工智能</span>
+
+<span style="font-weight:bold; margin-right:10px;">下载 PDF</span> <a href="/files/resume.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/resume-zh.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
 ## 教育背景
 
@@ -18,6 +20,19 @@ author_profile: true
 <span style="display:flex; justify-content:space-between;"><span>*香港科技大学 (HKUST)*</span><span>2025年9月 – 至今</span></span>
 CGPA: **3.99/4.3**（HKUST 前 2%）  
 专业 CGPA: **4.195/4.3**
+
+<details>
+  <summary><strong>课程绩点</strong></summary>
+
+  <ul style="margin-top:8px;">
+    <li><strong>COMP1023</strong> Python 编程入门 — 95.20 (A+)</li>
+    <li><strong>COMP2011</strong> C++ 编程 — 95.14 (A+)</li>
+    <li><strong>COMP2211</strong> 人工智能导论 — 91.31 (A+)</li>
+    <li><strong>COMP2711</strong> 离散数学 — 93.0 (A)</li>
+    <li><strong>MATH1013</strong> 微积分 I — 93.68 (A+)</li>
+    <li><strong>MATH1014</strong> 微积分 II — 92.45 (A)</li>
+  </ul>
+</details>
 
 ## 实习经历
 
