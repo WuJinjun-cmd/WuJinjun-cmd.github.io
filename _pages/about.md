@@ -37,6 +37,20 @@ Major CGPA: **4.195/4.3**
   </ul>
 </details>
 
+## Honors & Awards
+
+- **SENG Dean's List**, HKUST — 2025-26 Fall, 2025-26 Spring
+- **University's Scholarship Scheme** for Continuing Undergraduate Students (HKD 40,000, Pending)
+
+## Skills
+
+**Programming:** Python, C++  
+**Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
+**Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
+**System:** Linux  
+**Vibe Coding (with API):** Claude Code, Codex, Trae  
+**Languages:** Mandarin (native), English (IELTS 7.0)
+
 ## Experience
 
 ### IELTS Teaching Assistant — QULEDA
@@ -80,8 +94,3 @@ These are projects I plan to work on (some may be perpetually under construction
 
 - **QULEDA 错题自动批改系统** — Automated error grading system for QULEDA (currently on hold / abandoned)
 - **满满情绪价值系统** — A system that provides abundant emotional value
-
-## Honors & Awards
-
-- **SENG Dean's List**, HKUST — 2025-26 Fall, 2025-26 Spring
-- **University's Scholarship Scheme** for Continuing Undergraduate Students (HKD 40,000, Pending)
