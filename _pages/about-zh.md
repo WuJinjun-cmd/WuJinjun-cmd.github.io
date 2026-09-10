@@ -41,10 +41,11 @@ CGPA: **3.99/4.3**（HKUST 前 2%）
 
 ## 技能
 
-**编程语言:** Python, C++  
+**编程语言:** Python, C++, R  
 **机器学习/深度学习框架:** Scikit-Learn, Keras, PyTorch  
 **数据处理与可视化:** NumPy, Pandas, Matplotlib  
 **系统:** Linux  
+**排版:** LaTeX  
 **生产力工具:** Claude Code, Codex, Trae  
 **语言:** 普通话（母语），英语（IELTS 7.0）
 
