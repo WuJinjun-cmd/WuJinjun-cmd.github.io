@@ -90,7 +90,7 @@ A Claude Code skill to help write other skills — meta-tooling for skill author
 **Programming:** Python, C++, R  
 **Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
 **Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
-**System:** Linux  
+**Operating System:** Linux, UNIX  
 **Typesetting:** LaTeX  
 **Vibe Coding (with API):** Claude Code, Codex, Trae  
 **Languages:** Mandarin (native), English (IELTS 7.0)
