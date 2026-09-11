@@ -95,3 +95,4 @@ These are projects I plan to work on (some may be perpetually under construction
 
 - **QULEDA 错题自动批改系统** — Automated error grading system for QULEDA (currently on hold / abandoned)
 - **满满情绪价值系统** — A system that provides abundant emotional value
+- **[Graphcode](https://justinlinkk.github.io/projects/graph-code/)** — a graph-native, human-in-the-loop architecture IDE for large multi-file software systems (collaborative project)

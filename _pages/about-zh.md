@@ -92,3 +92,4 @@ CGPA: **3.99/4.3**（HKUST 前 2%）
 
 - **QULEDA 错题自动批改系统** — 自动化错题批改系统（目前搁置中）
 - **满满情绪价值系统** — 提供满满情绪价值的系统
+- **[Graphcode](https://justinlinkk.github.io/projects/graph-code/)** — 面向大型多文件软件系统的图原生、人机协同架构 IDE（合作项目）

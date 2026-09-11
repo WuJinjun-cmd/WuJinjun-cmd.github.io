@@ -4,7 +4,7 @@ title: "Courses"
 author_profile: true
 ---
 
-Courses taken at HKUST, sourced from unofficial transcript (as of 29 June 2026).
+Courses taken at HKUST, sourced from unofficial transcript.
 
 <details>
   <summary><strong>Course Notes</strong></summary>
