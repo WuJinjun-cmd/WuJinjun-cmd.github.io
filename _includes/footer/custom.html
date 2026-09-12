@@ -3,22 +3,4 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
-<!-- Smooth fade-in for expanded <details> content -->
-<script>
-  document.querySelectorAll('details').forEach(function (d) {
-    d.addEventListener('toggle', function () {
-      if (!d.open) return;
-      Array.from(d.children).forEach(function (el) {
-        if (el.tagName !== 'SUMMARY') {
-          el.style.transition = 'none';
-          el.style.opacity = '0';
-          void el.offsetHeight;
-          el.style.transition = 'opacity 0.4s ease-out';
-          el.style.opacity = '1';
-        }
-      });
-    });
-  });
-</script>
-
 <!-- end custom footer snippets -->
