@@ -6,7 +6,7 @@ author_profile: true
 
 <div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">EN</a></div>
 
-你好，我是 **WU, Jinjun (吴金骏)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学及工程学系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
+你好，我是 **吴金骏 (WU, Jinjun)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学及工程学系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
 
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机系统</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">强化学习</span>
@@ -15,7 +15,7 @@ author_profile: true
 
 ## 教育背景
 
-**计算机科学 B.Eng**（2026年6月从微电子与集成电路专业转入）  
+**计算机科学 B.Eng**  
 <span style="display:flex; justify-content:space-between;"><span>*香港科技大学 (HKUST)*</span><span>2025年9月 – 至今</span></span>
 CGPA: **3.99/4.3**（HKUST 前 2%）  
 专业 CGPA: **4.195/4.3**
@@ -36,7 +36,7 @@ CGPA: **3.99/4.3**（HKUST 前 2%）
 ## 荣誉与奖项
 
 - **SENG 院长嘉许名单**，HKUST — 2025-26 秋季、2025-26 春季
-- **大学持续本科生奖学金计划**（HKD 40,000，待定）
+- **大学持续本科生奖学金计划**（HKD 40,000，2026）
 
 ## 技能
 

@@ -9,7 +9,7 @@ redirect_from:
 
 <div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/zh/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a></div>
 
-Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
+Hi, I'm **吴金骏 (WU, Jinjun)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
 
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Systems</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Reinforcement Learning</span>
@@ -18,7 +18,7 @@ Hi, I'm **WU, Jinjun (吴金骏)**, a Year 2 undergraduate in the **B.Eng in Com
 
 ## Education
 
-**B.Eng in Computer Science** (transferred from B.Eng in Microelectronics and Integrated Circuits in June 2026)  
+**B.Eng in Computer Science**  
 <span style="display:flex; justify-content:space-between;"><span>*The Hong Kong University of Science and Technology (HKUST)*</span><span>September 2025 – Present</span></span>
 CGPA: **3.99/4.3** (top 2% in HKUST)  
 Major CGPA: **4.195/4.3**
@@ -39,7 +39,7 @@ Major CGPA: **4.195/4.3**
 ## Honors & Awards
 
 - **SENG Dean's List**, HKUST — 2025-26 Fall, 2025-26 Spring
-- **University's Scholarship Scheme** for Continuing Undergraduate Students (HKD 40,000, Pending)
+- **University's Scholarship Scheme** for Continuing Undergraduate Students (HKD 40,000, 2026)
 
 ## Skills
 
