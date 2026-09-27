@@ -10,6 +10,7 @@ Courses taken at HKUST, sourced from unofficial transcript.
   <summary><strong>Course Notes</strong></summary>
 
   <ul style="margin-top:8px;">
+    <li><strong>COMP2012</strong> Object-Oriented Programming and Data Structures — <a href="/files/COMP2012-notes.pdf">Notes (PDF)</a></li>
     <li><strong>COMP3711</strong> Design and Analysis of Algorithms — <a href="/files/COMP3711-notes.pdf">Notes (PDF)</a></li>
   </ul>
 </details>
