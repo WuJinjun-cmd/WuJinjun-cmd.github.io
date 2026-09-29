@@ -1,6 +1,6 @@
 ---
 permalink: /interaction/
-title: "Interaction"
+title: "Miscellaneous"
 author_profile: true
 ---
 
