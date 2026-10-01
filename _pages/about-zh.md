@@ -11,7 +11,7 @@ author_profile: true
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机系统</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">强化学习</span>
 
-<span style="font-weight:bold; margin-right:10px;">下载 PDF</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
+<span style="font-weight:bold; margin-right:10px;">下载简历</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
 ## 教育背景
 
