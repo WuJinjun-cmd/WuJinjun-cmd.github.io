@@ -6,11 +6,11 @@ author_profile: true
 
 <div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">EN</a></div>
 
-你好，我是 **吴金骏 (WU, Jinjun)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学及工程学系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
+你好，我是 **吴金骏 (WU, Jinjun)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学与工程系](https://cse.hkust.edu.hk/)** 的 **计算机科学专业 B.Eng (COMP)** 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、打游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
 
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">计算机系统</span>
 <span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">强化学习</span>
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">图学习</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #ccc); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">图</span>
 
 <span style="font-weight:bold; margin-right:10px;">下载简历</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
@@ -25,12 +25,12 @@ GPA: **3.99/4.3**（HKUST 前 2%）
   <summary><strong>课程绩点</strong></summary>
 
   <ul style="margin-top:8px;">
-    <li><strong>COMP1023</strong> Python 程序设计 — 95.20 (A+)</li>
-    <li><strong>COMP2011</strong> C++ 程序设计 — 95.14 (A+)</li>
-    <li><strong>COMP2211</strong> 人工智能导论 — 91.31 (A+)</li>
-    <li><strong>COMP2711</strong> 离散数学 — 93.0 (A)</li>
-    <li><strong>MATH1013</strong> 微积分 I — 93.68 (A+)</li>
-    <li><strong>MATH1014</strong> 微积分 II — 92.45 (A)</li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP1023</strong> Python 程序设计 — 95.20 (A+)</span><span style="margin-left:auto;">2025 秋季</span></li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2011</strong> C++ 程序设计 — 95.14 (A+)</span><span style="margin-left:auto;">2026 春季</span></li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2211</strong> 人工智能导论 — 91.31 (A+)</span><span style="margin-left:auto;">2026 春季</span></li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2711</strong> 离散数学 — 93.0 (A)</span><span style="margin-left:auto;">2026 春季</span></li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1013</strong> 微积分 I — 93.68 (A+)</span><span style="margin-left:auto;">2025 秋季</span></li>
+    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1014</strong> 微积分 II — 92.45 (A)</span><span style="margin-left:auto;">2026 春季</span></li>
   </ul>
 </details>
 
@@ -41,7 +41,7 @@ GPA: **3.99/4.3**（HKUST 前 2%）
 
 ## 技能
 
-**编程语言:** Python, C++ 
+**编程语言:** Python, C++  
 **人工智能框架:** Scikit-Learn, Keras, TensorFlow, PyTorch  
 **数据处理与可视化:** NumPy, Pandas, Matplotlib  
 **操作系统:** Linux  
