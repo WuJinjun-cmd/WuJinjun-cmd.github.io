@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Read(//tmp/**)",
+      "Bash(pdftotext /d/personal_website/files/resume.pdf /tmp/orig_en.txt)",
+      "Bash(pdftotext resume.pdf /tmp/new_en.txt)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(ls -la \"/d/hkust/2026-2027学年/COMP2012/\")",
+      "Read(//d/hkust/2026-2027学年/COMP2012//**)"
     ]
   }
 }

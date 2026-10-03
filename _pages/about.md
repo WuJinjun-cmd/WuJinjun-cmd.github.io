@@ -11,9 +11,9 @@ redirect_from:
 
 Hi, I'm **吴金骏 (WU, Jinjun)**, a Year 2 undergraduate in the **B.Eng in Computer Science (COMP)** program at the **[Department of Computer Science and Engineering (CSE)](https://cse.hkust.edu.hk/)**, School of Engineering, **[The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/)**. My MBTI is **ISTP**. In my spare time, I enjoy watching variety shows, going out for good food, playing games (Genshin Impact, Tiào Yī Tiào, Monument Valley), and building random (mostly useless) things with vibe coding. :)
 
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #333); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Computer Systems</span>
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #333); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Reinforcement Learning</span>
-<span style="display:inline-block; border: 2px solid var(--global-border-color, #333); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #333);">Graph</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #000); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #000);">Computer Systems</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #000); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #000);">Reinforcement Learning</span>
+<span style="display:inline-block; border: 2px solid var(--global-border-color, #000); border-radius: 20px; padding: 6px 16px; margin: 4px 8px; font-size:0.95em; color: var(--global-text-color, #000);">Graph</span>
 
 <span style="font-weight:bold; margin-right:10px;">Download CV</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
