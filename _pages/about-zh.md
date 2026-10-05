@@ -39,14 +39,50 @@ GPA: **3.99/4.3**（HKUST 前 2%）
 <details>
   <summary><strong>课程绩点</strong></summary>
 
-  <ul style="margin-top:8px;">
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP1023</strong> Python 程序设计 — 95.20 (A+)</span><span style="margin-left:auto;">2025 秋季</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2011</strong> C++ 程序设计 — 95.14 (A+)</span><span style="margin-left:auto;">2026 春季</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2211</strong> 人工智能导论 — 91.31 (A+)</span><span style="margin-left:auto;">2026 春季</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2711</strong> 离散数学 — 93.0 (A)</span><span style="margin-left:auto;">2026 春季</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1013</strong> 微积分 I — 93.68 (A+)</span><span style="margin-left:auto;">2025 秋季</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1014</strong> 微积分 II — 92.45 (A)</span><span style="margin-left:auto;">2026 春季</span></li>
-  </ul>
+  <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
+    <colgroup>
+      <col style="width:7em;">
+      <col>
+      <col style="width:8em;">
+      <col style="width:8em;">
+    </colgroup>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP1023</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Python 程序设计</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">95.20 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2025 秋季</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2011</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">C++ 程序设计</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">95.14 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2026 春季</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2211</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">人工智能导论</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">91.31 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2026 春季</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2711</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">离散数学</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">93.0 (A)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2026 春季</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1013</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">微积分 I</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">93.68 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2025 秋季</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1014</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">微积分 II</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">92.45 (A)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">2026 春季</td>
+    </tr>
+  </table>
 </details>
 
 ## 荣誉与奖项

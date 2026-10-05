@@ -42,14 +42,50 @@ Major CGPA: **4.195/4.3**
 <details>
   <summary><strong>Course Grades</strong></summary>
 
-  <ul style="margin-top:8px;">
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP1023</strong> Introduction to Python Programming — 95.20 (A+)</span><span style="margin-left:auto;">Fall 2025</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2011</strong> Programming with C++ — 95.14 (A+)</span><span style="margin-left:auto;">Spring 2026</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2211</strong> Introduction to Artificial Intelligence — 91.31 (A+)</span><span style="margin-left:auto;">Spring 2026</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>COMP2711</strong> Discrete Mathematical Tools for Computer Science — 93.0 (A)</span><span style="margin-left:auto;">Spring 2026</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1013</strong> Calculus I — 93.68 (A+)</span><span style="margin-left:auto;">Fall 2025</span></li>
-    <li style="display:flex; align-items:baseline; flex-wrap:wrap; column-gap:12px;"><span><strong>MATH1014</strong> Calculus II — 92.45 (A)</span><span style="margin-left:auto;">Spring 2026</span></li>
-  </ul>
+  <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
+    <colgroup>
+      <col style="width:7em;">
+      <col>
+      <col style="width:8em;">
+      <col style="width:8em;">
+    </colgroup>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP1023</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Introduction to Python Programming</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">95.20 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Fall 2025</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2011</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Programming with C++</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">95.14 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Spring 2026</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2211</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Introduction to Artificial Intelligence</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">91.31 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Spring 2026</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2711</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Discrete Mathematical Tools for Computer Science</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">93.0 (A)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Spring 2026</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1013</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Calculus I</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">93.68 (A+)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Fall 2025</td>
+    </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1014</strong></td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top;">Calculus II</td>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">92.45 (A)</td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top; text-align:right; white-space:nowrap;">Spring 2026</td>
+    </tr>
+  </table>
 </details>
 
 ## Honors & Awards
