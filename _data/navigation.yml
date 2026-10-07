@@ -14,14 +14,14 @@ main:
   # - title: "Talks"
   #   url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Services"
+    url: /services/
 
   - title: "Portfolio"
     url: /portfolio/
 
   - title: "Miscellaneous"
-    url: /interaction/
+    url: /misc/
 
   # - title: "Travel"
   #   url: /travel/

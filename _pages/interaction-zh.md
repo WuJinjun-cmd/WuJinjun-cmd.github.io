@@ -1,10 +1,10 @@
 ---
-permalink: /zh/interaction/
+permalink: /zh/misc/
 title: "交互"
 author_profile: true
 ---
 
-<div style="display:flex; justify-content:flex-end; margin:-0.45rem 0 0.85rem; position:relative; z-index:3;"><a href="{{ '/interaction/' | relative_url }}" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">EN</a></div>
+<div style="display:flex; justify-content:flex-end; margin:-0.45rem 0 0.85rem; position:relative; z-index:3;"><a href="{{ '/misc/' | relative_url }}" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">EN</a></div>
 
 {% include cat-yarn.html %}
 

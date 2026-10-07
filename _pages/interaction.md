@@ -1,10 +1,10 @@
 ---
-permalink: /interaction/
+permalink: /misc/
 title: "Miscellaneous"
 author_profile: true
 ---
 
-<div style="display:flex; justify-content:flex-end; margin:-0.45rem 0 0.85rem; position:relative; z-index:3;"><a href="{{ '/zh/interaction/' | relative_url }}" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a></div>
+<div style="display:flex; justify-content:flex-end; margin:-0.45rem 0 0.85rem; position:relative; z-index:3;"><a href="{{ '/zh/misc/' | relative_url }}" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a></div>
 
 {% include cat-yarn.html %}
 
