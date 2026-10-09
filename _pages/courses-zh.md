@@ -30,7 +30,7 @@ author_profile: true
   </table>
 </details>
 
-## 2026-27 秋学期 <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">即将到来</span>
+## 2026-27 秋学期 <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">进行中</span>
 
 <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
   <colgroup>

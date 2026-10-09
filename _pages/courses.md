@@ -30,7 +30,7 @@ Courses taken at HKUST, sourced from unofficial transcript.
   </table>
 </details>
 
-## 2026-27 Fall <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">Upcoming</span>
+## 2026-27 Fall <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">In Progress</span>
 
 <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
   <colgroup>
