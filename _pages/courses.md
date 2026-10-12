@@ -27,6 +27,11 @@ Courses taken at HKUST, sourced from unofficial transcript.
       <td style="border:none; padding:0.25em 0; vertical-align:top;">Design and Analysis of Algorithms</td>
       <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/COMP3711-notes.pdf">Notes (PDF)</a></td>
     </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2121</strong></td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top;">Linear Algebra</td>
+      <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/MATH2121-notes.pdf">Notes (PDF)</a></td>
+    </tr>
   </table>
 </details>
 

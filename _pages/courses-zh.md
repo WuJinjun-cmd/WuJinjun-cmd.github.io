@@ -27,6 +27,11 @@ author_profile: true
       <td style="border:none; padding:0.25em 0; vertical-align:top;">算法设计与分析</td>
       <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/COMP3711-notes.pdf">笔记 (PDF)</a></td>
     </tr>
+    <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2121</strong></td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top;">线性代数</td>
+      <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/MATH2121-notes.pdf">笔记 (PDF)</a></td>
+    </tr>
   </table>
 </details>
 
