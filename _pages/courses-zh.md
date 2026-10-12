@@ -18,6 +18,11 @@ author_profile: true
     <col style="width:7em;">
   </colgroup>
     <tr>
+      <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2011</strong></td>
+      <td style="border:none; padding:0.25em 0; vertical-align:top;">C++ 编程</td>
+      <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/COMP2011-notes.pdf">笔记 (PDF)</a></td>
+    </tr>
+    <tr>
       <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2012</strong></td>
       <td style="border:none; padding:0.25em 0; vertical-align:top;">面向对象编程与数据结构</td>
       <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;"><a href="/files/COMP2012-notes.pdf">笔记 (PDF)</a></td>
