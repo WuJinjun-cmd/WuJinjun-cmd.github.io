@@ -45,6 +45,51 @@ author_profile: true
   </table>
 </details>
 
+## 2026-27 春学期 <span style="background:#6c757d; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">预计</span>
+
+<table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
+  <colgroup>
+    <col style="width:7em;">
+    <col>
+    <col style="width:7em;">
+  </colgroup>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP3711</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">算法设计与分析</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP4211</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">机器学习</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP4900</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">学术与职业发展</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">0.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>ELEC1010</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">电子与信息技术</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2023</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">多元微积分</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2431</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">荣誉概率论</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH3425</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">随机建模</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
+  </tr>
+</table>
+
 ## 2026-27 秋学期 <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">进行中</span>
 
 <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">

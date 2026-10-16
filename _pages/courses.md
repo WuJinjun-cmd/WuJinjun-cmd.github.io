@@ -45,6 +45,51 @@ Courses taken at HKUST, sourced from unofficial transcript.
   </table>
 </details>
 
+## 2026-27 Spring <span style="background:#6c757d; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">Expected</span>
+
+<table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
+  <colgroup>
+    <col style="width:7em;">
+    <col>
+    <col style="width:7em;">
+  </colgroup>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP3711</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Design and Analysis of Algorithms</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP4211</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Machine Learning</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP4900</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Academic and Professional Development</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">0.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>ELEC1010</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Electronic and Information Technology</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2023</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Multivariable Calculus</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2431</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Honors Probability</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 credits</td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH3425</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">Stochastic Modeling</td>
+    <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
+  </tr>
+</table>
+
 ## 2026-27 Fall <span style="background:#5bc0de; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">In Progress</span>
 
 <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
