@@ -8,16 +8,6 @@ author_profile: true
 
 在香港科技大学修读的课程，信息来源于非官方成绩单。
 
-## 课程笔记
-
-**计算机科学:**
-
-[COMP2011 (PDF)](/files/COMP2011-notes.pdf), [COMP2012 (PDF)](/files/COMP2012-notes.pdf), [COMP2211 (PDF)](/files/COMP2211-notes.pdf), [COMP2711 (PDF)](/files/COMP2711-notes.pdf), [COMP3711 (PDF)](/files/COMP3711-notes.pdf)
-
-**数学:**
-
-[MATH1013+MATH1014 (PDF)](/files/MATH1013-1014-notes.pdf), [MATH2121 (PDF)](/files/MATH2121-notes.pdf)
-
 ## 2026-27 春学期 <span style="background:#6c757d; color:#fff; padding:2px 8px; border-radius:4px; font-size:0.65em; vertical-align:middle;">预计</span>
 
 <table style="border:none; margin:8px 0 0; font-size:1em; table-layout:fixed;">
@@ -27,7 +17,7 @@ author_profile: true
     <col style="width:7em;">
   </colgroup>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP3711</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP3711-notes.pdf" style="text-decoration:none; color:inherit;">COMP3711</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">算法设计与分析</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
@@ -72,7 +62,7 @@ author_profile: true
     <col style="width:7em;">
   </colgroup>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2012</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP2012-notes.pdf" style="text-decoration:none; color:inherit;">COMP2012</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">面向对象编程与数据结构</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
@@ -92,7 +82,7 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">0.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2121</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH2121-notes.pdf" style="text-decoration:none; color:inherit;">MATH2121</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">线性代数</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
@@ -112,17 +102,17 @@ author_profile: true
     <col style="width:7em;">
   </colgroup>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2011</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP2011-notes.pdf" style="text-decoration:none; color:inherit;">COMP2011</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">C++ 编程</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2211</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP2211-notes.pdf" style="text-decoration:none; color:inherit;">COMP2211</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">人工智能导论</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP2711</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP2711-notes.pdf" style="text-decoration:none; color:inherit;">COMP2711</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">离散数学</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
@@ -137,7 +127,7 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">2.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1014</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH1013-1014-notes.pdf" style="text-decoration:none; color:inherit;">MATH1014</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">微积分 II</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
@@ -187,7 +177,7 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">0.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH1013</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH1013-1014-notes.pdf" style="text-decoration:none; color:inherit;">MATH1013</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">微积分 I</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>

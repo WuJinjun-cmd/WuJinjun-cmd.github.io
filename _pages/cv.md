@@ -17,7 +17,7 @@ CGPA: **3.99/4.3** (top 2% in HKUST)
 
 ## Research Interests
 
-Computer Systems, Reinforcement Learning
+Theoretical Computer Science, Reinforcement Learning
 
 ---
 

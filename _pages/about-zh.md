@@ -11,7 +11,7 @@ author_profile: true
 <style>
   .research-tag {
     display: inline-block;
-    border: 2px solid #333;
+    border: 2px solid var(--global-text-color, #333);
     border-radius: 20px;
     padding: 6px 16px;
     margin: 4px 8px;
@@ -23,7 +23,7 @@ author_profile: true
   }
 </style>
 
-<span class="research-tag">计算机系统</span>
+<span class="research-tag">理论计算机科学</span>
 <span class="research-tag">强化学习</span>
 <span class="research-tag">图</span>
 

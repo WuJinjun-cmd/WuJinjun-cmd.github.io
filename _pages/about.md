@@ -14,7 +14,7 @@ Hi, I'm **吴金骏 (WU, Jinjun)**, a Year 2 undergraduate in the **B.Eng in Com
 <style>
   .research-tag {
     display: inline-block;
-    border: 2px solid #333;
+    border: 2px solid var(--global-text-color, #000);
     border-radius: 20px;
     padding: 6px 16px;
     margin: 4px 8px;
@@ -26,7 +26,7 @@ Hi, I'm **吴金骏 (WU, Jinjun)**, a Year 2 undergraduate in the **B.Eng in Com
   }
 </style>
 
-<span class="research-tag">Computer Systems</span>
+<span class="research-tag">Theoretical Computer Science</span>
 <span class="research-tag">Reinforcement Learning</span>
 <span class="research-tag">Graph</span>
 
