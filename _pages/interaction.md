@@ -22,3 +22,9 @@ Move the gray cat through a maple grove by guiding the yarn ball. The cat avoids
 - Drag open space to orbit the 3D view, or use the camera buttons for preset views.
 - Place the yarn ball on any maple tree's canopy or branch to make the cat sleep beneath that tree.
 - Click `Reset yarn` to return the ball to its starting position.
+
+## Favorite Genshin Impact Characters
+
+- Linnea
+- Varka
+- Wriothesley
