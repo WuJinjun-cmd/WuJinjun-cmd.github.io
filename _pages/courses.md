@@ -22,7 +22,7 @@ Courses taken at HKUST, sourced from unofficial transcript.
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP4211</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP4211-notes.pdf" style="text-decoration:none; color:inherit;">COMP4211</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">Machine Learning</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
   </tr>
