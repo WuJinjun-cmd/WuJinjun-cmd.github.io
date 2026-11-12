@@ -147,7 +147,7 @@ Courses taken at HKUST, sourced from unofficial transcript.
     <col style="width:7em;">
   </colgroup>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP1023</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP1023-notes.pdf" style="text-decoration:none; color:inherit;">COMP1023</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">Introduction to Python Programming</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
   </tr>

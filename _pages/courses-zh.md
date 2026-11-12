@@ -147,7 +147,7 @@ author_profile: true
     <col style="width:7em;">
   </colgroup>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>COMP1023</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/COMP1023-notes.pdf" style="text-decoration:none; color:inherit;">COMP1023</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">Python 编程入门</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
