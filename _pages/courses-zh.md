@@ -37,7 +37,7 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2023</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH2023-notes.pdf" style="text-decoration:none; color:inherit;">MATH2023</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">多元微积分</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>

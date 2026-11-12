@@ -37,7 +37,7 @@ Courses taken at HKUST, sourced from unofficial transcript.
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 credits</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2023</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH2023-notes.pdf" style="text-decoration:none; color:inherit;">MATH2023</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">Multivariable Calculus</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 credits</td>
   </tr>
