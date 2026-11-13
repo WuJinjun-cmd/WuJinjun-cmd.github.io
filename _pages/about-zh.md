@@ -6,9 +6,9 @@ author_profile: true
 
 <div style="float:right; margin-top:-2.8em; margin-bottom:0.5em;"><a href="/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 12px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">EN</a></div>
 
-你好，我是 **吴金骏 (WU, Jinjun)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学与工程系](https://cse.hkust.edu.hk/)** 的 **计算机科学**专业 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、干饭、玩游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
+你好，我是 **吴金骏 (WU, Jinjun)**，目前就读于 **[香港科技大学 (HKUST)](https://hkust.edu.hk/)** 工学院 **[计算机科学与工程系](https://cse.hkust.edu.hk/)** 的 **计算机科学**专业 大二年级。MBTI 是 **ISTP**。课余时间喜欢看综艺、玩游戏（原神、跳一跳、纪念碑谷），以及用 vibe coding 做一些（没什么用的）东西。:)
 
-我目前的研究和学习兴趣为概率、图论与图算法。
+我目前的研究和学习兴趣为概率、图论与机器学习理论。
 
 <style>
   .research-tag {
@@ -25,10 +25,10 @@ author_profile: true
   }
 </style>
 
-<span class="research-tag">理论计算机</span>
-<span class="research-tag">强化学习</span>
+<span class="research-tag">理论计算机科学</span>
+<span class="research-tag">机器学习</span>
 <span class="research-tag">图论&图算法</span>
-<span class="research-tag">概率</span>
+<span class="research-tag">概率统计</span>
 
 <span style="font-weight:bold; margin-right:10px;">下载简历</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
