@@ -11,6 +11,7 @@ author_profile: true
 </style>
 
 A public learning log from a naive Year 2 computer science student who is interested in probability, graph theory, and TCS topics.
+
 ---
 
 ## Machine Learning
