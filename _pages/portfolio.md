@@ -4,8 +4,13 @@ title: "Portfolio"
 author_profile: true
 ---
 
-A public learning log from a Year 2 CS student. Three tracks: Machine Learning, Data Structures and Algorithms, and Analysis. Updated as I learn.
+<style>
+  .page__content ul li {
+    margin-bottom: 0;
+  }
+</style>
 
+A public learning log from a naive Year 2 computer science student who is interested in probability, graph theory, and TCS topics.
 ---
 
 ## Machine Learning
