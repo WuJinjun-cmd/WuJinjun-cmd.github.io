@@ -4,54 +4,85 @@ title: "Portfolio"
 author_profile: true
 ---
 
-Selected projects from my [GitHub](https://github.com/WuJinjun-cmd).
+A public learning log from a Year 2 CS student. Three tracks: Machine Learning, Data Structures and Algorithms, and Analysis. Updated as I learn.
 
 ---
 
-## 🔬 [EdgeHealth-ML](https://github.com/WuJinjun-cmd/EdgeHealth-ML)
+## Machine Learning
 
-**Tools:** Python, PyTorch, torchvision, Claude Code
-
-**On-device multimodal human activity recognition** — Vision+IMU fusion with MobileNetV3-Small + 1D-CNN, INT8 quantization, ONNX deployment. Built for HKUST MINSys Lab alignment.
-
-- Dual-branch architecture: Vision (MobileNetV3-Small) + IMU (3-layer 1D-CNN)
-- STFT spectrogram features + raw 6-channel accelerometer/gyroscope signals
-- INT8 quantization & ONNX export for edge deployment
-- **87.6% test accuracy** on UCI HAR Dataset
-
----
-
-## 🔮 [Future Prediction System](https://github.com/WuJinjun-cmd/Future-prediction-system)
-
-A fortune-telling system that predicts whether your future is bright or bleak — because sometimes you just need to know.
-
-<a href="https://wujinjun-cmd.github.io/Future-prediction-system/" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 16px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">Live Demo</a>
-
----
-
-## 🛠️ Skills
-
-<details style="margin-left:1em; margin-bottom:2px;">
-  <summary><strong>📅 <a href="https://github.com/WuJinjun-cmd/schedule-skill">Schedule Skill</a></strong></summary>
-  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> HTML, CSS, JavaScript</p>
-  <p style="margin-top:2px;">A Claude Code skill to generate course schedules. Automates timetable creation from course data.</p>
-</details>
-
-<details style="margin-left:1em; margin-bottom:2px;">
-  <summary><strong>✍️ <a href="https://github.com/WuJinjun-cmd/skill-writer-skill">Skill Writer Skill</a></strong></summary>
-  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> PowerShell</p>
-  <p style="margin-top:2px;">A Claude Code skill to help write other skills — meta-tooling for skill authoring workflows.</p>
-</details>
-
-<details style="margin-left:1em; margin-bottom:2px;">
-  <summary><strong>💝 <a href="https://github.com/WuJinjun-cmd/emotion-value-skill">Emotion Value Skill</a></strong></summary>
-  <p style="margin-top:2px; margin-bottom:2px;"><strong>Tools:</strong> Claude Code</p>
-  <p style="margin-top:2px;">A Claude Code skill for emotional companionship — celebration, comfort, pep talks, and a friendly presence.</p>
-</details>
+- Perceptron and multilayer perceptron (MLP)
+- Backpropagation
+- Convolutional neural networks (CNN)
+- Recurrent neural networks (RNN) and LSTM
+- Transformer and attention
+- Naive Bayes
+- k-nearest neighbors
+- k-means clustering
+- Linear and logistic regression
+- Support vector machines (SVM)
+- Decision trees, random forests, gradient boosting
+- Principal component analysis (PCA)
+- Cross-validation and regularization
+- Generative models (VAE, GAN)
+- PAC learning and VC dimension
+- Generalization bounds
+- Convex optimization
+- Concentration inequalities
 
 ---
 
-## 🔗 Forks & Learning
+## Data Structures and Algorithms
 
-- **[vit-pytorch](https://github.com/WuJinjun-cmd/vit-pytorch)** — Vision Transformer implementation in PyTorch
-- **[Pytorch-VAE-tutorial](https://github.com/WuJinjun-cmd/Pytorch-VAE-tutorial)** — Variational AutoEncoder tutorial with PyTorch
+- Arrays and linked lists
+- Stacks and queues
+- Hash tables
+- Binary trees and binary search trees
+- Heaps and priority queues
+- Sorting: bubble, insertion, selection, merge, quick
+- Balanced trees: AVL, red-black
+- B-trees and B+ trees
+- Union-Find (disjoint sets)
+- Segment tree and Fenwick tree (binary indexed tree)
+- Skip list
+- Bloom filter
+- Graph representation: adjacency list, adjacency matrix
+- Traversal: BFS, DFS, topological sort
+- Shortest paths: Dijkstra, Bellman-Ford, Floyd-Warshall
+- Minimum spanning trees: Prim, Kruskal
+- Strongly connected components: Kosaraju, Tarjan
+- Network flow and min-cut
+- Bipartite matching
+- Complexity analysis: big-O, master theorem, amortized analysis
+- Divide and conquer
+- Greedy algorithms
+- Dynamic programming
+- Backtracking and search
+- NP-completeness and reductions
+- String algorithms: KMP, Trie, suffix array
+- Randomized algorithms
+- Approximation algorithms
+
+---
+
+## Analysis
+
+- Real numbers and completeness
+- Sequences and limits
+- Series and convergence tests
+- Topology: open, closed, compact, connected sets
+- Continuous functions and uniform continuity
+- Differentiation and the mean value theorem
+- Riemann integration and the fundamental theorem of calculus
+- Sequences of functions and uniform convergence
+- Measure theory
+- Measure-theoretic probability
+- Functional analysis
+
+---
+
+## Misc
+
+- [EdgeHealth-ML](https://github.com/WuJinjun-cmd/EdgeHealth-ML): on-device multimodal human activity recognition
+- [Future Prediction System](https://github.com/WuJinjun-cmd/Future-prediction-system): a fortune-telling toy
+- Claude Code skills: [schedule-skill](https://github.com/WuJinjun-cmd/schedule-skill), [skill-writer-skill](https://github.com/WuJinjun-cmd/skill-writer-skill), [emotion-value-skill](https://github.com/WuJinjun-cmd/emotion-value-skill)
+- Reference forks: [vit-pytorch](https://github.com/WuJinjun-cmd/vit-pytorch), [Pytorch-VAE-tutorial](https://github.com/WuJinjun-cmd/Pytorch-VAE-tutorial)

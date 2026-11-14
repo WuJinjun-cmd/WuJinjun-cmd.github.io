@@ -29,7 +29,7 @@ My current research and study interests are discrete structures (probability the
 </style>
 
 <span class="research-tag">Theoretical Computer Science (TCS)</span>
-<span class="research-tag">Reinforcement Learning (RL)</span>
+<span class="research-tag">Machine Learning (ML)</span>
 <span class="research-tag">Graph</span>
 <span class="research-tag">Probability</span>
 

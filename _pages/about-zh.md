@@ -97,7 +97,7 @@ GPA: **3.99/4.3**（HKUST 前 2%）
 
 ## 技能
 
-**编程语言:** Python, C++  
+**编程语言:** Python, C++, C  
 **人工智能框架:** Scikit-Learn, Keras, TensorFlow, PyTorch  
 **数据处理与可视化:** NumPy, Pandas, Matplotlib  
 **操作系统:** Linux  
