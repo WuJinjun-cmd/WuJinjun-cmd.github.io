@@ -130,6 +130,55 @@ GPA: **3.99/4.3**（HKUST 前 2%）
 - 参加 Kaggle 天体分类竞赛（Playground Series S6E6），从 12 维光度数据预测恒星 / 星系 / 类星体（QSO）三类，官方指标为平衡准确率（balanced accuracy）。构建了从经典基线（从零编写的 Decision Stump、KNN、K-means、梯度提升树）到深度模型（MLP、RNN、LSTM、Transformer、条件 GAN）的完整 notebook，并加入颜色指数特征工程与类别权重
 - 通过加权软投票集成（blend, don't vote）融合各模型，最终在私有排行榜（private leaderboard）上达到 **96.3% 的平衡准确率**（较此前 94% 的 KNN 基线有明显提升）。Notebook：[Stellar-Classification-zh.ipynb](/files/Stellar-Classification-zh.ipynb)
 
+<details>
+  <summary><strong>训练图（训练证明）</strong></summary>
+
+  <div style="margin-top:0.6em;">
+
+  <h4 style="margin:0.8em 0 0.4em;">数据与预处理</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/correlation.png" loading="lazy" alt="特征相关性矩阵" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">特征相关性矩阵</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Redshift_distribution.png" loading="lazy" alt="红移分布" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">红移分布（按类别）</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">经典模型</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/decision_stump.png" loading="lazy" alt="决策桩" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">决策桩阈值</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/knn.png" loading="lazy" alt="k-近邻" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-近邻</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/kmeans.png" loading="lazy" alt="k-means 聚类" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-means 聚类</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/wcss.png" loading="lazy" alt="k-means 肘部法则" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-means 肘部法则 (WCSS)</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gbdt.png" loading="lazy" alt="梯度提升树" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">梯度提升树</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">深度模型</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/mlp_distribution.png" loading="lazy" alt="MLP 预测分布" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">MLP 预测分布</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/mlp_confusion.png" loading="lazy" alt="MLP 混淆矩阵" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">MLP 混淆矩阵</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/rnn_distribution.png" loading="lazy" alt="RNN 预测分布" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">RNN 预测分布</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/rnn_confusion.png" loading="lazy" alt="RNN 混淆矩阵" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">RNN 混淆矩阵</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/lstm_distribution.png" loading="lazy" alt="LSTM 预测分布" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">LSTM 预测分布</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/lstm_bar.png" loading="lazy" alt="LSTM 分类准确率" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">LSTM 分类准确率</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Transformer_distribution.png" loading="lazy" alt="Transformer 预测分布" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Transformer 预测分布</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Transformer_attention.png" loading="lazy" alt="Transformer 注意力" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Transformer 注意力</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">生成模型（GAN）</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/gan_data.png" loading="lazy" alt="GAN 生成样本" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN 生成样本</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gan_d.png" loading="lazy" alt="GAN 判别器损失" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN 判别器损失</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gan2.png" loading="lazy" alt="GAN 训练" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN 训练</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">分析与集成</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/permutation.png" loading="lazy" alt="排列重要性" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">排列重要性</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/prediction.png" loading="lazy" alt="最终预测" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">最终预测</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/final.png" loading="lazy" alt="最终集成结果" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">最终集成结果</figcaption></figure>
+  </div>
+
+  </div>
+</details>
+
 ### COMP3511 编程作业: Myshell — 简化版 Linux Shell
 *2026年9月*  
 **工具:** C, POSIX

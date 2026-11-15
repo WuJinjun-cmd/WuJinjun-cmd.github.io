@@ -133,6 +133,55 @@ Major CGPA: **4.195/4.3**
 - Predicted star / galaxy / quasar (QSO) classes from 12-dimensional photometric data in Kaggle's Stellar Classification challenge (Playground Series S6E6), whose official metric is balanced accuracy. Built an end-to-end notebook progressing from classical baselines — decision stump (from scratch), KNN, K-means, gradient-boosted trees — to deep models (MLP, RNN, LSTM, Transformer, conditional GAN), with colour-index feature engineering and class weighting.
 - Combined the models with a weighted soft-voting ensemble ("blend, don't vote"), reaching **96.3% balanced accuracy** on the private leaderboard (up from a 94% KNN baseline). Notebook: [Stellar-Classification.ipynb](/files/Stellar-Classification.ipynb)
 
+<details>
+  <summary><strong>Training plots (proof of training)</strong></summary>
+
+  <div style="margin-top:0.6em;">
+
+  <h4 style="margin:0.8em 0 0.4em;">Data &amp; preprocessing</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/correlation.png" loading="lazy" alt="Feature correlation matrix" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Feature correlation matrix</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Redshift_distribution.png" loading="lazy" alt="Redshift distribution" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Redshift distribution by class</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">Classical models</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/decision_stump.png" loading="lazy" alt="Decision stump" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Decision stump threshold</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/knn.png" loading="lazy" alt="k-nearest neighbors" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-nearest neighbors</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/kmeans.png" loading="lazy" alt="k-means clustering" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-means clustering</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/wcss.png" loading="lazy" alt="k-means elbow" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">k-means elbow (WCSS)</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gbdt.png" loading="lazy" alt="Gradient-boosted trees" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Gradient-boosted trees</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">Deep models</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/mlp_distribution.png" loading="lazy" alt="MLP prediction distribution" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">MLP prediction distribution</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/mlp_confusion.png" loading="lazy" alt="MLP confusion matrix" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">MLP confusion matrix</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/rnn_distribution.png" loading="lazy" alt="RNN prediction distribution" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">RNN prediction distribution</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/rnn_confusion.png" loading="lazy" alt="RNN confusion matrix" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">RNN confusion matrix</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/lstm_distribution.png" loading="lazy" alt="LSTM prediction distribution" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">LSTM prediction distribution</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/lstm_bar.png" loading="lazy" alt="LSTM class accuracy" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">LSTM class accuracy</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Transformer_distribution.png" loading="lazy" alt="Transformer prediction distribution" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Transformer prediction distribution</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/Transformer_attention.png" loading="lazy" alt="Transformer attention" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Transformer attention</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">Generative model (GAN)</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/gan_data.png" loading="lazy" alt="GAN generated samples" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN generated samples</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gan_d.png" loading="lazy" alt="GAN discriminator loss" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN discriminator loss</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/gan2.png" loading="lazy" alt="GAN training" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">GAN training</figcaption></figure>
+  </div>
+
+  <h4 style="margin:0.8em 0 0.4em;">Analysis &amp; ensemble</h4>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:12px;">
+    <figure style="margin:0;"><img src="/images/stellar/permutation.png" loading="lazy" alt="Permutation feature importance" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Permutation feature importance</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/prediction.png" loading="lazy" alt="Final predictions" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Final predictions</figcaption></figure>
+    <figure style="margin:0;"><img src="/images/stellar/final.png" loading="lazy" alt="Final ensemble result" style="width:100%; border:1px solid var(--global-border-color); border-radius:4px;"><figcaption style="font-size:0.85em; text-align:center; margin-top:4px;">Final ensemble result</figcaption></figure>
+  </div>
+
+  </div>
+</details>
+
 ### [Agent Breaker](https://play.lakera.ai/) — Lakera
 *July 2026*  
 **Score: 1787 · Leaderboard: top 200 (top 2%)**
