@@ -100,7 +100,7 @@ Major CGPA: **4.195/4.3**
 
 ## Skills
 
-**Programming:** Python, C++  
+**Programming:** Python, C++, C  
 **Machine Learning & Deep Learning Frameworks:** Scikit-Learn, Keras, PyTorch  
 **Data Preprocessing & Visualization:** NumPy, Pandas, Matplotlib  
 **Operating System:** Linux  
