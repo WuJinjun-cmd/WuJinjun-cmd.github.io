@@ -125,10 +125,10 @@ GPA: **3.99/4.3**（HKUST 前 2%）
 
 ### Kaggle 竞赛: 天体分类 Stellar Class Classification
 *2026年5月*  
-**工具:** Python, NumPy, Pandas, Scikit-Learn, Matplotlib
+**工具:** Python, NumPy, Pandas, Scikit-Learn, PyTorch
 
-- 参与分类比赛，从 12 维光度数据预测星系和恒星类型，进行了分类变量编码和 min-max 归一化至 [0, 1] 的预处理
-- 实现了多种模型：Decision Stump（从零编写）、KNN 和 K-means（通过 Scikit-Learn）。使用 KNN 在测试集上达到 94% 的分类准确率
+- 参加 Kaggle 天体分类竞赛（Playground Series S6E6），从 12 维光度数据预测恒星 / 星系 / 类星体（QSO）三类，官方指标为平衡准确率（balanced accuracy）。构建了从经典基线（从零编写的 Decision Stump、KNN、K-means、梯度提升树）到深度模型（MLP、RNN、LSTM、Transformer、条件 GAN）的完整 notebook，并加入颜色指数特征工程与类别权重
+- 通过加权软投票集成（blend, don't vote）融合各模型，最终在私有排行榜（private leaderboard）上达到 **96.3% 的平衡准确率**（较此前 94% 的 KNN 基线有明显提升）。Notebook：[Stellar-Classification-zh.ipynb](/files/Stellar-Classification-zh.ipynb)
 
 ### COMP3511 编程作业: Myshell — 简化版 Linux Shell
 *2026年9月*  

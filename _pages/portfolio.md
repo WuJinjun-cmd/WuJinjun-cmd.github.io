@@ -89,6 +89,7 @@ A public learning log from a naive Year 2 computer science student who is intere
 ## Misc
 
 - [EdgeHealth-ML](https://github.com/WuJinjun-cmd/EdgeHealth-ML): on-device multimodal human activity recognition
+- [Stellar Classification notebook](/files/Stellar-Classification.ipynb): Kaggle S6E6 — classical baselines to deep models (MLP / RNN / LSTM / Transformer / GAN) + ensembling, 96.3% balanced accuracy
 - [Future Prediction System](https://github.com/WuJinjun-cmd/Future-prediction-system): a fortune-telling toy
 - Claude Code skills: [schedule-skill](https://github.com/WuJinjun-cmd/schedule-skill), [skill-writer-skill](https://github.com/WuJinjun-cmd/skill-writer-skill), [emotion-value-skill](https://github.com/WuJinjun-cmd/emotion-value-skill)
 - Reference forks: [vit-pytorch](https://github.com/WuJinjun-cmd/vit-pytorch), [Pytorch-VAE-tutorial](https://github.com/WuJinjun-cmd/Pytorch-VAE-tutorial)

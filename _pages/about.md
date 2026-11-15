@@ -128,10 +128,10 @@ Major CGPA: **4.195/4.3**
 
 ### Kaggle Competition: Stellar Class Classification
 *May 2026*  
-**Tools:** Python, NumPy, Pandas, Scikit-Learn, Matplotlib
+**Tools:** Python, NumPy, Pandas, Scikit-Learn, PyTorch
 
-- Participated in a classification competition to predict galaxy and star types from 12-dimensional photometric data $$\mathbf{x} = \langle x_1, x_2, \ldots, x_{12} \rangle$$ (redshift, spectral features, galaxy population, etc.). Performed data preprocessing including categorical variable encoding and min-max normalization to [0, 1].
-- Implemented multiple models: Decision Stump (from scratch), KNN and K-means (via Scikit-Learn). Evaluated model performance through confusion matrix, Precision, Recall, and F1 scores; identified limitations in separating overlapping galaxy and star clusters. Achieved 94% classification accuracy on the test set using KNN.
+- Predicted star / galaxy / quasar (QSO) classes from 12-dimensional photometric data in Kaggle's Stellar Classification challenge (Playground Series S6E6), whose official metric is balanced accuracy. Built an end-to-end notebook progressing from classical baselines — decision stump (from scratch), KNN, K-means, gradient-boosted trees — to deep models (MLP, RNN, LSTM, Transformer, conditional GAN), with colour-index feature engineering and class weighting.
+- Combined the models with a weighted soft-voting ensemble ("blend, don't vote"), reaching **96.3% balanced accuracy** on the private leaderboard (up from a 94% KNN baseline). Notebook: [Stellar-Classification.ipynb](/files/Stellar-Classification.ipynb)
 
 ### [Agent Breaker](https://play.lakera.ai/) — Lakera
 *July 2026*  
