@@ -42,7 +42,7 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2431</strong></td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong><a href="/files/MATH2431-notes.pdf" style="text-decoration:none; color:inherit;">MATH2431</a></strong></td>
     <td style="border:none; padding:0.25em 0; vertical-align:top;">荣誉概率论</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
