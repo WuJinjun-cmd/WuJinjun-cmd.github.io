@@ -47,8 +47,8 @@ author_profile: true
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">4.0 学分</td>
   </tr>
   <tr>
-    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH3425</strong></td>
-    <td style="border:none; padding:0.25em 0; vertical-align:top;">随机建模</td>
+    <td style="border:none; padding:0.25em 12px 0.25em 0; vertical-align:top; white-space:nowrap;"><strong>MATH2351</strong></td>
+    <td style="border:none; padding:0.25em 0; vertical-align:top;">微分方程导论</td>
     <td style="border:none; padding:0.25em 0 0.25em 12px; vertical-align:top; text-align:right; white-space:nowrap;">3.0 学分</td>
   </tr>
 </table>
