@@ -37,8 +37,8 @@ My current research and study interests are discrete structures (probability the
 
 ## Education
 
-**B.Eng in Computer Science**  
-<span style="display:flex; justify-content:space-between;"><span>*The Hong Kong University of Science and Technology (HKUST)*</span><span>September 2025 – Present</span></span>
+**The Hong Kong University of Science and Technology (HKUST)**  
+<span style="display:flex; justify-content:space-between;"><span>*B.Eng in Computer Science (COMP)*</span><span>September 2025 – Present</span></span>
 CGPA: **3.99/4.3** (top **2**% in HKUST)  
 Major CGPA: **4.195/4.3**
 

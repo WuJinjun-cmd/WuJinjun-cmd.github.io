@@ -34,8 +34,8 @@ author_profile: true
 
 ## 教育背景
 
-**计算机科学（工学学士）**  
-<span style="display:flex; justify-content:space-between;"><span>*香港科技大学*</span><span>2025年9月 – 至今</span></span>
+**本科：香港科技大学（HKUST）**  
+<span style="display:flex; justify-content:space-between;"><span>*工学学士（计算机科学）*</span><span>2025年9月 – 至今</span></span>
 GPA: **3.99/4.3**（HKUST 前 2%）  
 主修GPA: **4.195/4.3**
 
