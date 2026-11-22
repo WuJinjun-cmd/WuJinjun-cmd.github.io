@@ -24,3 +24,9 @@ package-lock.json
 
 # Ignore graphcode tool data
 .graphcode/
+
+# Ignore WorkBuddy tool data
+.workbuddy/
+
+# Ignore personal planning notes
+科研联系行动计划.md
