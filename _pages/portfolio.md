@@ -10,7 +10,7 @@ author_profile: true
   }
 </style>
 
-A public learning log from a naive Year 2 computer science student who is interested in probability, graph theory, and TCS topics.
+A public learning log from a naive Year 2 computer science student.
 
 ---
 
@@ -87,6 +87,12 @@ A public learning log from a naive Year 2 computer science student who is intere
 ---
 
 ## Misc
+
+<div style="font-style:italic; display:flex; flex-wrap:wrap; column-gap:3em; row-gap:1.5em; align-items:flex-start;">
+  <div>我的少年心气<br>已经腐烂在过去，<br>而如今的我<br>只是一具平庸的躯壳。</div>
+  <div>我试图探寻人活着的意义，<br>但唯独感受到<br>连续的不幸<br>与离散的幸福<br>交织着贯穿，<br>皆是我的煎熬。</div>
+</div>
+<div style="text-align:right; font-style:italic; margin-top:0.3em;">——2026.11.27</div>
 
 - [EdgeHealth-ML](https://github.com/WuJinjun-cmd/EdgeHealth-ML): on-device multimodal human activity recognition
 - [Stellar Classification notebook](/files/Stellar-Classification.ipynb): Kaggle S6E6 — classical baselines to deep models (MLP / RNN / LSTM / Transformer / GAN) + ensembling, 96.3% balanced accuracy

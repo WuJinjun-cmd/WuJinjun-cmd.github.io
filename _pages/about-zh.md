@@ -32,8 +32,6 @@ author_profile: true
 
 <span style="font-weight:bold; margin-right:10px;">下载简历</span> <a href="/files/CV-EN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none; margin-right:6px;">EN</a> <a href="/files/CV-CN.pdf" style="display:inline-block; border:1.5px solid var(--global-text-color,#333); border-radius:4px; padding:4px 14px; font-weight:bold; font-size:0.9em; color:inherit; text-decoration:none;">中</a>
 
-<i>我的少年心气<br>已经腐烂在过去，<br>而如今的我<br>只是一具平庸的躯壳。<br><br>我试图探寻人活着的意义，<br>但唯独感受到<br>连续的不幸<br>与离散的幸福<br>交织着贯穿，<br>皆是我的煎熬。</i>
-
 ## 教育背景
 
 **本科：香港科技大学（HKUST）**  
